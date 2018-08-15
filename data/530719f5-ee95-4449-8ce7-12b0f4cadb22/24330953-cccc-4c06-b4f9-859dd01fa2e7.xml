@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="[38]"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2012-06-28T08:02:20.452Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2015-07-29T12:59:12.756Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2012-06-28T08:02:20.452Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:06.074Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>purgeDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:06.475Z</audit:date>
+<audit:justification> . . . Purged datastream (ID=POLICY), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 0 datastream version(s) () and all associated audit records.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC3">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:06.541Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC4">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:06.691Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC5">
+<audit:process type="Fedora API-M"/>
+<audit:action>purgeDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:06.848Z</audit:date>
+<audit:justification> . . . Purged datastream (ID=POLICY), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 1 datastream version(s) (2012-07-16T13:23:06.541Z) and all associated audit records.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC6">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:06.886Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC7">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>TEXT_OCR</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-05T13:24:18.856Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC8">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>ALTO</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-05T13:24:19.206Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC9">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>TEXT_OCR</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-29T12:59:12.200Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC10">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>ALTO</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-29T12:59:12.756Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC.0" LABEL="Dublin Core Record for this object" CREATED="2012-06-28T10:02:32.000Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="470">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>[38]</dc:title>
+  <dc:type>model:page</dc:type>
+  <dc:identifier>uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</dc:identifier>
+  <dc:rights>policy:private</dc:rights>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.1" LABEL="Dublin Core Record for this object" CREATED="2012-07-16T11:23:06.074Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="469">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>[38]</dc:title>
+  <dc:type>model:page</dc:type>
+  <dc:identifier>uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</dc:identifier>
+  <dc:rights>policy:public</dc:rights>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.2" LABEL="Dublin Core Record for this object" CREATED="2012-07-16T11:23:06.691Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="469">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>[38]</dc:title>
+  <dc:type>model:page</dc:type>
+  <dc:identifier>uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</dc:identifier>
+  <dc:rights>policy:public</dc:rights>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="BIBLIO_MODS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="BIBLIO_MODS.0" LABEL="BIBLIO_MODS description of current object" CREATED="2012-06-28T10:02:32.000Z" MIMETYPE="text/xml" FORMAT_URI="http://www.loc.gov/mods/v3" SIZE="1148">
+<foxml:xmlContent>
+<mods:modsCollection xmlns:mods="http://www.loc.gov/mods/v3" schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+          <mods:mods version="3.3">
+            <mods:identifier type="urn">24330953-cccc-4c06-b4f9-859dd01fa2e7</mods:identifier>
+            <mods:identifier type="sici"></mods:identifier>
+            <mods:titleInfo>
+              <mods:title>[38]</mods:title>
+            </mods:titleInfo>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:part type="NormalPage">
+              <mods:detail type="pageNumber">
+                <mods:number>[38]</mods:number>
+              </mods:detail>
+              <mods:detail type="pageIndex">
+                <mods:number>38</mods:number>
+              </mods:detail>
+            </mods:part>
+            <mods:location>
+              <mods:url>http://kramerius.mzk.cz/search/handle/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</mods:url>
+            </mods:location>
+            <mods:identifier type="uuid">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</mods:identifier>
+          </mods:mods>
+        </mods:modsCollection>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS_EXT.0" LABEL="RDF Statements about this object" CREATED="2012-06-28T10:02:32.000Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="757">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:kramerius="http://www.nsdl.org/ontologies/relationships#">
+          <rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+            <fedora-model:hasModel xmlns:fedora-model="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></fedora-model:hasModel>
+            <oai:itemID xmlns:oai="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</oai:itemID>
+            <kramerius:policy>policy:private</kramerius:policy>
+            <kramerius:tiles-url>http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</kramerius:tiles-url>
+          </rdf:Description>
+        </rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.1" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:06.419Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="553">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.2" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:06.441Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="639">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.3" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:06.740Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="553">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.4" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:06.804Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="639">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.5" LABEL="RDF Statements about this object" CREATED="2012-08-06T09:30:49.567Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="761">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:d3f011e3-f1fd-4025-a907-68a860460841"></rdf:isMemberOfCollection>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.6" LABEL="RDF Statements about this object" CREATED="2013-01-03T13:59:14.061Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="639">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.7" LABEL="RDF Statements about this object" CREATED="2013-01-03T14:00:23.721Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="761">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:d3f011e3-f1fd-4025-a907-68a860460841"></rdf:isMemberOfCollection>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.8" LABEL="RDF Statements about this object" CREATED="2013-07-08T08:45:42.408Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="883">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:24330953-cccc-4c06-b4f9-859dd01fa2e7</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:d3f011e3-f1fd-4025-a907-68a860460841"></rdf:isMemberOfCollection>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:9eb85860-f6ee-4ea2-9e85-7c5232a9e96e"></rdf:isMemberOfCollection>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="IMG_FULL" STATE="A" CONTROL_GROUP="R" VERSIONABLE="true">
+<foxml:datastreamVersion ID="IMG_FULL.0" LABEL="" CREATED="2012-06-28T10:02:32.000Z" MIMETYPE="image/jpeg">
+<foxml:contentLocation TYPE="URL" REF="http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7/big.jpg"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="IMG_THUMB" STATE="A" CONTROL_GROUP="R" VERSIONABLE="true">
+<foxml:datastreamVersion ID="IMG_THUMB.0" LABEL="" CREATED="2012-06-28T10:02:32.000Z" MIMETYPE="image/jpeg">
+<foxml:contentLocation TYPE="URL" REF="http://imageserver.mzk.cz/mzk01/000/329/646/24330953-cccc-4c06-b4f9-859dd01fa2e7/preview.jpg"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="POLICY" STATE="A" CONTROL_GROUP="E" VERSIONABLE="false">
+<foxml:datastreamVersion ID="POLICY.0" LABEL="" CREATED="2012-07-16T11:23:06.886Z" MIMETYPE="application/rdf+xml">
+<foxml:contentLocation TYPE="URL" REF="http://local.fedora.server/fedora/get/policy:public/POLICYDEF"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="TEXT_OCR" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="TEXT_OCR.0" LABEL="" CREATED="2015-07-05T13:24:18.856Z" MIMETYPE="text/plain" SIZE="598">
+<foxml:binaryContent> 
+              77u/U2xhdm7DvSBrdXBlYwpLdXBlYyBwxZlpamVsIHogY2l6w60gemVtxJssCnpib8W+w60ga2xhZGwg
+              bmEga3LDoW3EmyDigJQKdm9sYWw6ICwsUHJvc8OtbSwgcmHEjXRlIGtlIG1uxJssCnbFoWUgdHUgdnrD
+              oWNubyBuw6FyYW1uxJsh4oCcClBhbsOtIHogbcSbc3RhIHMgY2jFr3ZvdSBzdm9qw60KcMWZaWJ5bGEg
+              c2VtIHphIGtyw6F0a286CuKAnlByb3PDrW0sIHBhbmUsIGNvIHBhayBzdG9qw60KcHJvIGTEm3RpxI1r
+              eSBjdWtyw6F0a28/4oCcCuKAnlRpc8OtYyBwZW7Em3osIHZ6w6FjbsOhIHBhbsOtLAp0aXPDrWMsIGFs
+              ZSBkb3Nsb3ZhIeKAnArigJ5OZXNsZXbDrXRlIGtyZWpjYXIgYW5pP+KAnArigJ5VIG1uZSBzZSBqdcW+
+              IG5lc21sb3V2w6EhCkFieXN0ZSB2xaFhayBwxZlpxaFseSB6YXNlLApwcm8gdHkgZMOtdGt5IHYga2/E
+              jcOhcmt1CsSNZXJub29rw6ksIHpsYXRvdmxhc8OpCnDFmWlkw6FtIGplxaF0xJsgcG8gZMOhcmt1IeKA
+              nApWIHRvbSBDaMWIYXAgcyBCdWZlbSB2eWxldMSbbGkg4oCUCnDFmWlrcsSNZW5pIHphIHZyw6F0a3kg
+              4oCUCmNoeXRpbGksIGNvIGJsw616a28gbcSbbGksCm5hIHbEm8SNbsOpIHByw70gb3Bsw6F0a3kuCg==
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="TEXT_OCR.1" LABEL="" CREATED="2015-07-29T12:59:12.200Z" MIMETYPE="text/plain" SIZE="601">
+<foxml:binaryContent> 
+              77u/U2xhdm7DvSBrdXBlYwpLdXBlYyBwxZlpamVsIHogY2l6w60gemVtxJssCnpib8W+w60ga2xhZGwg
+              bmEga3LDoW3EmyDigJQKdm9sYWw6IOKAnlByb3PDrW0sIHJhxI10ZSBrZSBtbsSbLAp2xaFlIHR1IHZ6
+              w6Fjbm8gbsOhcmFtbsSbIeKAnApQYW7DrSB6IG3Em3N0YSBzIGNoxa92b3Ugc3ZvasOtCnDFmWlieWxh
+              IHNlbSB6YSBrcsOhdGtvIDoK4oCeUHJvc8OtbSwgcGFuZSwgY28gcGFrIHN0b2rDrQpwcm8gZMSbdGnE
+              jWt5IGN1a3LDoXRrbz/igJwK4oCeVGlzw61jIHBlbsSbeiwgdnrDoWNuw6EgcGFuw60sCnRpc8OtYywg
+              YWxlIGRvc2xvdmEh4oCcCuKAnk5lc2xldsOtdGUga3JlamNhciBhbmk/4oCcCuKAnlUgbW5lIHNlIGp1
+              xb4gbmVzbWxvdXbDoSEKQWJ5c3RlIHbFoWFrIHDFmWnFoWx5IHphc2UsCnBybyB0eSBkw610a3kgdiBr
+              b8SNw6Fya3UKxI1lcm5vb2vDqSwgemxhdG92bGFzw6kKcMWZaWTDoW0gamXFoXTEmyBwbyBkw6Fya3Uh
+              4oCcClYgdG9tIENoxYhhcCBzIEJ1ZmVtIHZ5bGV0xJtsaSDigJQtCnDFmWlrcsSNZW5pIHphIHZyw6F0
+              a3kg4oCUCmNoeXRpbGksIGNvIGJsw616a28gbcSbbGksCm5hIHbEm8SNbsOpIHByw70gb3Bsw6F0a3ku
+              Cg==
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="ALTO" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="ALTO.0" LABEL="" CREATED="2015-07-05T13:24:19.206Z" MIMETYPE="text/plain" SIZE="13349">
+<foxml:binaryContent> 
+              77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8
+              YWx0byB4bWxucz0iaHR0cDovL3d3dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyIgeG1sbnM6
+              eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53
+              My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cDovL3d3
+              dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyBodHRwOi8vd3d3LmxvYy5nb3Yvc3RhbmRhcmRz
+              L2FsdG8vYWx0by12Mi4wLnhzZCI+CjxEZXNjcmlwdGlvbj4KPE1lYXN1cmVtZW50VW5pdD5waXhlbDwv
+              TWVhc3VyZW1lbnRVbml0Pgo8T0NSUHJvY2Vzc2luZyBJRD0iSWRPY3IiPjxvY3JQcm9jZXNzaW5nU3Rl
+              cD48cHJvY2Vzc2luZ0RhdGVUaW1lPjIwMTUtMDctMDU8L3Byb2Nlc3NpbmdEYXRlVGltZT48cHJvY2Vz
+              c2luZ1NvZnR3YXJlPjxzb2Z0d2FyZUNyZWF0b3I+QUJCWVk8L3NvZnR3YXJlQ3JlYXRvcj48c29mdHdh
+              cmVOYW1lPkFCQllZIFJlY29nbml0aW9uIFNlcnZlcjwvc29mdHdhcmVOYW1lPjxzb2Z0d2FyZVZlcnNp
+              b24+NC4wPC9zb2Z0d2FyZVZlcnNpb24+PC9wcm9jZXNzaW5nU29mdHdhcmU+PC9vY3JQcm9jZXNzaW5n
+              U3RlcD48L09DUlByb2Nlc3Npbmc+CjwvRGVzY3JpcHRpb24+CjxTdHlsZXM+PFRleHRTdHlsZSBJRD0i
+              Zm9udDAiIEZPTlRGQU1JTFk9IlRpbWVzIE5ldyBSb21hbiIgRk9OVFNJWkU9IjkiLz48VGV4dFN0eWxl
+              IElEPSJmb250MSIgRk9OVEZBTUlMWT0iVGltZXMgTmV3IFJvbWFuIiBGT05UU0laRT0iMTgiLz4KPFBh
+              cmFncmFwaFN0eWxlIElEPSJTdHlsZUlkLUZGRkZGRkZGLUZGRkYtRkZGRi1GRkZGLUZGRkZGRkZGRkZG
+              Ri0iIEFMSUdOPSJMZWZ0IiBMRUZUPSIwLiIgUklHSFQ9IjAuIiBGSVJTVExJTkU9IjAuIi8+CjxQYXJh
+              Z3JhcGhTdHlsZSBJRD0iU3R5bGVJZC1EMzM5ODQxOC01RTNCLTQ5OUEtODczOS1DRTlDQzE0ODIwREMt
+              IiBBTElHTj0iQ2VudGVyIiBMRUZUPSIwLiIgUklHSFQ9IjAuIiBGSVJTVExJTkU9IjAuIiBMSU5FU1BB
+              Q0U9IjE5Ljg5OTk5OTYyIi8+CjxQYXJhZ3JhcGhTdHlsZSBJRD0iU3R5bGVJZC02MzBEMTNFMS0xM0RF
+              LTRGRDItQTA1Qy0yMkU4NTdEMDEwOEItIiBBTElHTj0iTGVmdCIgTEVGVD0iMC4iIFJJR0hUPSIwLiIg
+              RklSU1RMSU5FPSIwLiIgTElORVNQQUNFPSI5Ljk3MDAwMDI2NyIvPgo8L1N0eWxlcz4KPExheW91dD4K
+              PFBhZ2UgSUQ9IlBhZ2UxIiBQSFlTSUNBTF9JTUdfTlI9IjEiIEhFSUdIVD0iMTk3MSIgV0lEVEg9IjE1
+              MDAiPgo8VG9wTWFyZ2luIEhFSUdIVD0iMjMyIiBXSURUSD0iMTUwMCIgVlBPUz0iMCIgSFBPUz0iMCI+
+              CjwvVG9wTWFyZ2luPgo8TGVmdE1hcmdpbiBIRUlHSFQ9IjcyMSIgV0lEVEg9IjI3NCIgVlBPUz0iMjMy
+              IiBIUE9TPSIwIj4KPC9MZWZ0TWFyZ2luPgo8UmlnaHRNYXJnaW4gSEVJR0hUPSI3MjEiIFdJRFRIPSIy
+              MTQiIFZQT1M9IjIzMiIgSFBPUz0iMTI4NiI+CjwvUmlnaHRNYXJnaW4+CjxCb3R0b21NYXJnaW4gSEVJ
+              R0hUPSIxMDE4IiBXSURUSD0iMTUwMCIgVlBPUz0iOTUzIiBIUE9TPSIwIj4KPC9Cb3R0b21NYXJnaW4+
+              CjxQcmludFNwYWNlIEhFSUdIVD0iNzIxIiBXSURUSD0iMTAxMiIgVlBPUz0iMjMyIiBIUE9TPSIyNzQi
+              Pgo8VGV4dEJsb2NrIElEPSJQYWdlMV9CbG9jazEiIEhFSUdIVD0iNjkiIFdJRFRIPSIzNzQiIFZQT1M9
+              IjIzMiIgSFBPUz0iNjM1IiBsYW5ndWFnZT0iY3MiIFNUWUxFUkVGUz0iU3R5bGVJZC1EMzM5ODQxOC01
+              RTNCLTQ5OUEtODczOS1DRTlDQzE0ODIwREMtIGZvbnQxIj4KPFRleHRMaW5lIEJBU0VMSU5FPSIyODAi
+              IEhFSUdIVD0iNTkiIFdJRFRIPSIzNjQiIFZQT1M9IjIzNyIgSFBPUz0iNjQwIj48U3RyaW5nIENPTlRF
+              TlQ9IlNsYXZuw70iIEhFSUdIVD0iNTkiIFdJRFRIPSIxODIiIFZQT1M9IjIzNyIgSFBPUz0iNjQwIi8+
+              PFNQIFdJRFRIPSIzMyIgVlBPUz0iMjM5IiBIUE9TPSI4MjMiLz48U3RyaW5nIENPTlRFTlQ9Imt1cGVj
+              IiBIRUlHSFQ9IjU2IiBXSURUSD0iMTQ3IiBWUE9TPSIyMzkiIEhQT1M9Ijg1NyIvPjwvVGV4dExpbmU+
+              CjwvVGV4dEJsb2NrPgo8Q29tcG9zZWRCbG9jayBJRD0iUGFnZTFfQmxvY2syIiBIRUlHSFQ9IjM3NSIg
+              V0lEVEg9IjEwMTIiIFZQT1M9IjM2NCIgSFBPUz0iMjc0IiBUWVBFPSJjb250YWluZXIiPgo8Q29tcG9z
+              ZWRCbG9jayBJRD0iUGFnZTFfQmxvY2szIiBIRUlHSFQ9IjM3NCIgV0lEVEg9IjQ0NSIgVlBPUz0iMzY0
+              IiBIUE9TPSIyNzQiIFRZUEU9ImNvbnRhaW5lciI+CjxUZXh0QmxvY2sgSUQ9IlBhZ2UxX0Jsb2NrNCIg
+              SEVJR0hUPSIxNTIiIFdJRFRIPSI0NDQiIFZQT1M9IjM2NCIgSFBPUz0iMjc1IiBsYW5ndWFnZT0iY3Mi
+              IFNUWUxFUkVGUz0iU3R5bGVJZC02MzBEMTNFMS0xM0RFLTRGRDItQTA1Qy0yMkU4NTdEMDEwOEItIGZv
+              bnQwIj4KPFRleHRMaW5lIEJBU0VMSU5FPSI0MDIiIEhFSUdIVD0iNDMiIFdJRFRIPSIzNjYiIFZQT1M9
+              IjM2OCIgSFBPUz0iMjgxIj48U3RyaW5nIENPTlRFTlQ9Ikt1cGVjIiBIRUlHSFQ9IjQyIiBXSURUSD0i
+              ODkiIFZQT1M9IjM2OCIgSFBPUz0iMjgxIi8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iMzg3IiBIUE9TPSIz
+              NzEiLz48U3RyaW5nIENPTlRFTlQ9InDFmWlqZWwiIEhFSUdIVD0iMzMiIFdJRFRIPSI2OSIgVlBPUz0i
+              Mzc4IiBIUE9TPSIzODkiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSIzNzgiIEhQT1M9IjQ1OSIvPjxTdHJp
+              bmcgQ09OVEVOVD0ieiIgSEVJR0hUPSIxNCIgV0lEVEg9IjEyIiBWUE9TPSIzODciIEhQT1M9IjQ3NyIv
+              PjxTUCBXSURUSD0iMTgiIFZQT1M9IjM4NyIgSFBPUz0iNDkwIi8+PFN0cmluZyBDT05URU5UPSJjaXrD
+              rSIgSEVJR0hUPSIyNSIgV0lEVEg9IjQyIiBWUE9TPSIzNzgiIEhQT1M9IjUwOSIvPjxTUCBXSURUSD0i
+              MTciIFZQT1M9IjM4MCIgSFBPUz0iNTUyIi8+PFN0cmluZyBDT05URU5UPSJ6ZW3EmywiIEhFSUdIVD0i
+              MjkiIFdJRFRIPSI3NyIgVlBPUz0iMzgwIiBIUE9TPSI1NzAiLz48L1RleHRMaW5lPgo8VGV4dExpbmUg
+              QkFTRUxJTkU9IjQzOCIgSEVJR0hUPSIyNiIgV0lEVEg9IjM2NyIgVlBPUz0iNDEzIiBIUE9TPSIzMTYi
+              PjxTdHJpbmcgQ09OVEVOVD0iemJvxb7DrSIgSEVJR0hUPSIyNCIgV0lEVEg9IjY5IiBWUE9TPSI0MTQi
+              IEhQT1M9IjMxNiIvPjxTUCBXSURUSD0iMTYiIFZQT1M9IjQxNCIgSFBPUz0iMzg2Ii8+PFN0cmluZyBD
+              T05URU5UPSJrbGFkbCIgSEVJR0hUPSIyNSIgV0lEVEg9IjY3IiBWUE9TPSI0MTMiIEhQT1M9IjQwMyIv
+              PjxTUCBXSURUSD0iMTciIFZQT1M9IjQxMyIgSFBPUz0iNDcxIi8+PFN0cmluZyBDT05URU5UPSJuYSIg
+              SEVJR0hUPSIxNiIgV0lEVEg9IjMyIiBWUE9TPSI0MjIiIEhQT1M9IjQ4OSIvPjxTUCBXSURUSD0iMTgi
+              IFZQT1M9IjQxNSIgSFBPUz0iNTIyIi8+PFN0cmluZyBDT05URU5UPSJrcsOhbcSbIiBIRUlHSFQ9IjI0
+              IiBXSURUSD0iODciIFZQT1M9IjQxNSIgSFBPUz0iNTQxIi8+PFNQIFdJRFRIPSIxOCIgVlBPUz0iNDE2
+              IiBIUE9TPSI2MjkiLz48U3RyaW5nIENPTlRFTlQ9IuKAlCIgSEVJR0hUPSIzIiBXSURUSD0iMzUiIFZQ
+              T1M9IjQyOSIgSFBPUz0iNjQ4Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSI0NzQiIEhF
+              SUdIVD0iMzIiIFdJRFRIPSI0MzQiIFZQT1M9IjQ0OSIgSFBPUz0iMjc5Ij48U3RyaW5nIENPTlRFTlQ9
+              InZvbGFsOiIgSEVJR0hUPSIyNSIgV0lEVEg9IjczIiBWUE9TPSI0NDkiIEhQT1M9IjI3OSIvPjxTUCBX
+              SURUSD0iMjEiIFZQT1M9IjQ1OSIgSFBPUz0iMzUzIi8+PFN0cmluZyBDT05URU5UPSIsLFByb3PDrW0s
+              IiBIRUlHSFQ9IjMyIiBXSURUSD0iMTE1IiBWUE9TPSI0NDkiIEhQT1M9IjM3NSIvPjxTUCBXSURUSD0i
+              MTgiIFZQT1M9IjQ1OSIgSFBPUz0iNDkxIi8+PFN0cmluZyBDT05URU5UPSJyYcSNdGUiIEhFSUdIVD0i
+              MjMiIFdJRFRIPSI2OCIgVlBPUz0iNDUxIiBIUE9TPSI1MTAiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSI0
+              NTEiIEhQT1M9IjU3OSIvPjxTdHJpbmcgQ09OVEVOVD0ia2UiIEhFSUdIVD0iMjMiIFdJRFRIPSIzNCIg
+              VlBPUz0iNDUxIiBIUE9TPSI1OTciLz48U1AgV0lEVEg9IjE2IiBWUE9TPSI0NTkiIEhQT1M9IjYzMiIv
+              PjxTdHJpbmcgQ09OVEVOVD0ibW7EmywiIEhFSUdIVD0iMzAiIFdJRFRIPSI2NCIgVlBPUz0iNDUxIiBI
+              UE9TPSI2NDkiLz48L1RleHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJTkU9IjUxMCIgSEVJR0hUPSIyNSIg
+              V0lEVEg9IjM2NiIgVlBPUz0iNDg2IiBIUE9TPSIzMTQiPjxTdHJpbmcgQ09OVEVOVD0idsWhZSIgSEVJ
+              R0hUPSIyMyIgV0lEVEg9IjQ1IiBWUE9TPSI0ODciIEhQT1M9IjMxNCIvPjxTUCBXSURUSD0iMTciIFZQ
+              T1M9IjQ5MiIgSFBPUz0iMzYwIi8+PFN0cmluZyBDT05URU5UPSJ0dSIgSEVJR0hUPSIxOCIgV0lEVEg9
+              IjI1IiBWUE9TPSI0OTIiIEhQT1M9IjM3OCIvPjxTUCBXSURUSD0iMTgiIFZQT1M9IjQ5NSIgSFBPUz0i
+              NDA0Ii8+PFN0cmluZyBDT05URU5UPSJ2esOhY25vIiBIRUlHSFQ9IjIzIiBXSURUSD0iOTQiIFZQT1M9
+              IjQ4NyIgSFBPUz0iNDIzIi8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iNDk1IiBIUE9TPSI1MTgiLz48U3Ry
+              aW5nIENPTlRFTlQ9Im7DoXJhbW7EmyHigJwiIEhFSUdIVD0iMjUiIFdJRFRIPSIxNDQiIFZQT1M9IjQ4
+              NiIgSFBPUz0iNTM2Ii8+PC9UZXh0TGluZT4KPC9UZXh0QmxvY2s+CjxUZXh0QmxvY2sgSUQ9IlBhZ2Ux
+              X0Jsb2NrNSIgSEVJR0hUPSIxNTAiIFdJRFRIPSI0MzIiIFZQT1M9IjU4OCIgSFBPUz0iMjc0IiBsYW5n
+              dWFnZT0iY3MiIFNUWUxFUkVGUz0iU3R5bGVJZC02MzBEMTNFMS0xM0RFLTRGRDItQTA1Qy0yMkU4NTdE
+              MDEwOEItIGZvbnQwIj4KPFRleHRMaW5lIEJBU0VMSU5FPSI2MTciIEhFSUdIVD0iMzQiIFdJRFRIPSI0
+              MjIiIFZQT1M9IjU5MiIgSFBPUz0iMjc4Ij48U3RyaW5nIENPTlRFTlQ9IlBhbsOtIiBIRUlHSFQ9IjI1
+              IiBXSURUSD0iNjAiIFZQT1M9IjU5MiIgSFBPUz0iMjc4Ii8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iNTk0
+              IiBIUE9TPSIzMzkiLz48U3RyaW5nIENPTlRFTlQ9InoiIEhFSUdIVD0iMTQiIFdJRFRIPSIxMSIgVlBP
+              Uz0iNjAyIiBIUE9TPSIzNTciLz48U1AgV0lEVEg9IjE4IiBWUE9TPSI2MDEiIEhQT1M9IjM2OSIvPjxT
+              dHJpbmcgQ09OVEVOVD0ibcSbc3RhIiBIRUlHSFQ9IjI0IiBXSURUSD0iODAiIFZQT1M9IjU5MyIgSFBP
+              Uz0iMzg4Ii8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iNjAyIiBIUE9TPSI0NjkiLz48U3RyaW5nIENPTlRF
+              TlQ9InMiIEhFSUdIVD0iMTUiIFdJRFRIPSIxMiIgVlBPUz0iNjAyIiBIUE9TPSI0ODciLz48U1AgV0lE
+              VEg9IjE5IiBWUE9TPSI2MDIiIEhQT1M9IjUwMCIvPjxTdHJpbmcgQ09OVEVOVD0iY2jFr3ZvdSIgSEVJ
+              R0hUPSIyMyIgV0lEVEg9Ijk2IiBWUE9TPSI1OTQiIEhQT1M9IjUyMCIvPjxTUCBXSURUSD0iMTgiIFZQ
+              T1M9IjYwMiIgSFBPUz0iNjE3Ii8+PFN0cmluZyBDT05URU5UPSJzdm9qw60iIEhFSUdIVD0iMzIiIFdJ
+              RFRIPSI2NCIgVlBPUz0iNTk0IiBIUE9TPSI2MzYiLz48L1RleHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJ
+              TkU9IjY1MyIgSEVJR0hUPSIzMiIgV0lEVEg9IjMzOSIgVlBPUz0iNjI5IiBIUE9TPSIzMTQiPjxTdHJp
+              bmcgQ09OVEVOVD0icMWZaWJ5bGEiIEhFSUdIVD0iMzIiIFdJRFRIPSI5NiIgVlBPUz0iNjI5IiBIUE9T
+              PSIzMTQiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSI2MzciIEhQT1M9IjQxMSIvPjxTdHJpbmcgQ09OVEVO
+              VD0ic2VtIiBIRUlHSFQ9IjE2IiBXSURUSD0iNTQiIFZQT1M9IjYzNyIgSFBPUz0iNDI5Ii8+PFNQIFdJ
+              RFRIPSIxNyIgVlBPUz0iNjM4IiBIUE9TPSI0ODQiLz48U3RyaW5nIENPTlRFTlQ9InphIiBIRUlHSFQ9
+              IjE2IiBXSURUSD0iMjkiIFZQT1M9IjYzNyIgSFBPUz0iNTAyIi8+PFNQIFdJRFRIPSIxNyIgVlBPUz0i
+              NjI5IiBIUE9TPSI1MzIiLz48U3RyaW5nIENPTlRFTlQ9Imtyw6F0a286IiBIRUlHSFQ9IjI0IiBXSURU
+              SD0iMTAzIiBWUE9TPSI2MjkiIEhQT1M9IjU1MCIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElO
+              RT0iNjg4IiBIRUlHSFQ9IjMzIiBXSURUSD0iNDAyIiBWUE9TPSI2NjQiIEhQT1M9IjI4MSI+PFN0cmlu
+              ZyBDT05URU5UPSLigJ5Qcm9zw61tLCIgSEVJR0hUPSIzMSIgV0lEVEg9IjExNSIgVlBPUz0iNjY0IiBI
+              UE9TPSIyODEiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSI2NzMiIEhQT1M9IjM5NyIvPjxTdHJpbmcgQ09O
+              VEVOVD0icGFuZSwiIEhFSUdIVD0iMjQiIFdJRFRIPSI3MiIgVlBPUz0iNjcyIiBIUE9TPSI0MTUiLz48
+              U1AgV0lEVEg9IjE2IiBWUE9TPSI2NzMiIEhQT1M9IjQ4OCIvPjxTdHJpbmcgQ09OVEVOVD0iY28iIEhF
+              SUdIVD0iMTUiIFdJRFRIPSIzMCIgVlBPUz0iNjczIiBIUE9TPSI1MDUiLz48U1AgV0lEVEg9IjE3IiBW
+              UE9TPSI2NzMiIEhQT1M9IjUzNiIvPjxTdHJpbmcgQ09OVEVOVD0icGFrIiBIRUlHSFQ9IjMxIiBXSURU
+              SD0iNTEiIFZQT1M9IjY2NSIgSFBPUz0iNTU0Ii8+PFNQIFdJRFRIPSIxOCIgVlBPUz0iNjY1IiBIUE9T
+              PSI2MDYiLz48U3RyaW5nIENPTlRFTlQ9InN0b2rDrSIgSEVJR0hUPSIzMiIgV0lEVEg9IjU4IiBWUE9T
+              PSI2NjUiIEhQT1M9IjYyNSIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElORT0iNzI0IiBIRUlH
+              SFQ9IjMzIiBXSURUSD0iMzM0IiBWUE9TPSI3MDAiIEhQT1M9IjMxMyI+PFN0cmluZyBDT05URU5UPSJw
+              cm8iIEhFSUdIVD0iMjQiIFdJRFRIPSI0NiIgVlBPUz0iNzA4IiBIUE9TPSIzMTMiLz48U1AgV0lEVEg9
+              IjE3IiBWUE9TPSI3MDAiIEhQT1M9IjM2MCIvPjxTdHJpbmcgQ09OVEVOVD0iZMSbdGnEjWt5IiBIRUlH
+              SFQ9IjMzIiBXSURUSD0iOTkiIFZQT1M9IjcwMCIgSFBPUz0iMzc4Ii8+PFNQIFdJRFRIPSIxOCIgVlBP
+              Uz0iNzA5IiBIUE9TPSI0NzgiLz48U3RyaW5nIENPTlRFTlQ9ImN1a3LDoXRrbz/igJwiIEhFSUdIVD0i
+              MjQiIFdJRFRIPSIxNTAiIFZQT1M9IjcwMCIgSFBPUz0iNDk3Ii8+PC9UZXh0TGluZT4KPC9UZXh0Qmxv
+              Y2s+PC9Db21wb3NlZEJsb2NrPgo8VGV4dEJsb2NrIElEPSJQYWdlMV9CbG9jazYiIEhFSUdIVD0iMzY1
+              IiBXSURUSD0iNDQ2IiBWUE9TPSIzNzQiIEhQT1M9Ijg0MCIgbGFuZ3VhZ2U9ImNzIiBTVFlMRVJFRlM9
+              IlN0eWxlSWQtNjMwRDEzRTEtMTNERS00RkQyLUEwNUMtMjJFODU3RDAxMDhCLSBmb250MCI+CjxUZXh0
+              TGluZSBCQVNFTElORT0iNDAzIiBIRUlHSFQ9IjMzIiBXSURUSD0iMzgyIiBWUE9TPSIzNzkiIEhQT1M9
+              Ijg1MSI+PFN0cmluZyBDT05URU5UPSLigJ5UaXPDrWMiIEhFSUdIVD0iMzAiIFdJRFRIPSI4MSIgVlBP
+              Uz0iMzc5IiBIUE9TPSI4NTEiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSIzODgiIEhQT1M9IjkzMyIvPjxT
+              dHJpbmcgQ09OVEVOVD0icGVuxJt6LCIgSEVJR0hUPSIzMSIgV0lEVEg9Ijg2IiBWUE9TPSIzODAiIEhQ
+              T1M9Ijk1MSIvPjxTUCBXSURUSD0iMTgiIFZQT1M9IjM4OCIgSFBPUz0iMTAzOCIvPjxTdHJpbmcgQ09O
+              VEVOVD0idnrDoWNuw6EiIEhFSUdIVD0iMjQiIFdJRFRIPSI5MyIgVlBPUz0iMzgwIiBIUE9TPSIxMDU3
+              Ii8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iMzgwIiBIUE9TPSIxMTUxIi8+PFN0cmluZyBDT05URU5UPSJw
+              YW7DrSwiIEhFSUdIVD0iMzEiIFdJRFRIPSI2NCIgVlBPUz0iMzgxIiBIUE9TPSIxMTY5Ii8+PC9UZXh0
+              TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSI0MzkiIEhFSUdIVD0iMzEiIFdJRFRIPSIyNjgiIFZQT1M9
+              IjQxNSIgSFBPUz0iODgzIj48U3RyaW5nIENPTlRFTlQ9InRpc8OtYywiIEhFSUdIVD0iMzAiIFdJRFRI
+              PSI1OSIgVlBPUz0iNDE2IiBIUE9TPSI4ODMiLz48U1AgV0lEVEg9IjE2IiBWUE9TPSI0MjMiIEhQT1M9
+              Ijk0MyIvPjxTdHJpbmcgQ09OVEVOVD0iYWxlIiBIRUlHSFQ9IjI0IiBXSURUSD0iNDAiIFZQT1M9IjQx
+              NSIgSFBPUz0iOTYwIi8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iNDE1IiBIUE9TPSIxMDAxIi8+PFN0cmlu
+              ZyBDT05URU5UPSJkb3Nsb3ZhIeKAnCIgSEVJR0hUPSIyNSIgV0lEVEg9IjEzMiIgVlBPUz0iNDE1IiBI
+              UE9TPSIxMDE5Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSI0NzUiIEhFSUdIVD0iMzQi
+              IFdJRFRIPSIzNDkiIFZQT1M9IjQ1MCIgSFBPUz0iODUxIj48U3RyaW5nIENPTlRFTlQ9IuKAnk5lc2xl
+              dsOtdGUiIEhFSUdIVD0iMzEiIFdJRFRIPSIxNDQiIFZQT1M9IjQ1MCIgSFBPUz0iODUxIi8+PFNQIFdJ
+              RFRIPSIxNyIgVlBPUz0iNDUxIiBIUE9TPSI5OTYiLz48U3RyaW5nIENPTlRFTlQ9ImtyZWpjYXIiIEhF
+              SUdIVD0iMzMiIFdJRFRIPSI5OSIgVlBPUz0iNDUxIiBIUE9TPSIxMDE0Ii8+PFNQIFdJRFRIPSIxNyIg
+              VlBPUz0iNDYwIiBIUE9TPSIxMTE0Ii8+PFN0cmluZyBDT05URU5UPSJhbmk/4oCcIiBIRUlHSFQ9IjI0
+              IiBXSURUSD0iNjgiIFZQT1M9IjQ1MiIgSFBPUz0iMTEzMiIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBC
+              QVNFTElORT0iNTExIiBIRUlHSFQ9IjM0IiBXSURUSD0iMzk2IiBWUE9TPSI0ODYiIEhQT1M9Ijg4NSI+
+              PFN0cmluZyBDT05URU5UPSLigJ5VIiBIRUlHSFQ9IjMxIiBXSURUSD0iMzgiIFZQT1M9IjQ4NiIgSFBP
+              Uz0iODg1Ii8+PFNQIFdJRFRIPSIxOCIgVlBPUz0iNDg2IiBIUE9TPSI5MjQiLz48U3RyaW5nIENPTlRF
+              TlQ9Im1uZSIgSEVJR0hUPSIxNiIgV0lEVEg9IjU4IiBWUE9TPSI0OTUiIEhQT1M9Ijk0MyIvPjxTUCBX
+              SURUSD0iMTciIFZQT1M9IjQ5NSIgSFBPUz0iMTAwMiIvPjxTdHJpbmcgQ09OVEVOVD0ic2UiIEhFSUdI
+              VD0iMTYiIFdJRFRIPSIyOCIgVlBPUz0iNDk1IiBIUE9TPSIxMDIwIi8+PFNQIFdJRFRIPSIxNCIgVlBP
+              Uz0iNDg3IiBIUE9TPSIxMDQ5Ii8+PFN0cmluZyBDT05URU5UPSJqdcW+IiBIRUlHSFQ9IjMzIiBXSURU
+              SD0iNDEiIFZQT1M9IjQ4NyIgSFBPUz0iMTA2NCIvPjxTUCBXSURUSD0iMTgiIFZQT1M9IjQ4OCIgSFBP
+              Uz0iMTEwNiIvPjxTdHJpbmcgQ09OVEVOVD0ibmVzbWxvdXbDoSEiIEhFSUdIVD0iMjUiIFdJRFRIPSIx
+              NTYiIFZQT1M9IjQ4NyIgSFBPUz0iMTEyNSIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElORT0i
+              NjE4IiBIRUlHSFQ9IjMzIiBXSURUSD0iMzY0IiBWUE9TPSI1OTQiIEhQT1M9Ijg0NSI+PFN0cmluZyBD
+              T05URU5UPSJBYnlzdGUiIEhFSUdIVD0iMzIiIFdJRFRIPSI5OSIgVlBPUz0iNTk0IiBIUE9TPSI4NDUi
+              Lz48U1AgV0lEVEg9IjE4IiBWUE9TPSI2MDIiIEhQT1M9Ijk0NSIvPjxTdHJpbmcgQ09OVEVOVD0idsWh
+              YWsiIEhFSUdIVD0iMjQiIFdJRFRIPSI2MyIgVlBPUz0iNTk0IiBIUE9TPSI5NjQiLz48U1AgV0lEVEg9
+              IjE4IiBWUE9TPSI1OTQiIEhQT1M9IjEwMjgiLz48U3RyaW5nIENPTlRFTlQ9InDFmWnFoWx5IiBIRUlH
+              SFQ9IjMzIiBXSURUSD0iNzYiIFZQT1M9IjU5NCIgSFBPUz0iMTA0NyIvPjxTUCBXSURUSD0iMTkiIFZQ
+              T1M9IjYwMyIgSFBPUz0iMTEyNCIvPjxTdHJpbmcgQ09OVEVOVD0iemFzZSwiIEhFSUdIVD0iMjIiIFdJ
+              RFRIPSI2NSIgVlBPUz0iNjAzIiBIUE9TPSIxMTQ0Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VM
+              SU5FPSI2NTQiIEhFSUdIVD0iMzMiIFdJRFRIPSIzNDgiIFZQT1M9IjYyOSIgSFBPUz0iODgwIj48U3Ry
+              aW5nIENPTlRFTlQ9InBybyIgSEVJR0hUPSIyNCIgV0lEVEg9IjQ3IiBWUE9TPSI2MzgiIEhQT1M9Ijg4
+              MCIvPjxTUCBXSURUSD0iMTciIFZQT1M9IjYzNSIgSFBPUz0iOTI4Ii8+PFN0cmluZyBDT05URU5UPSJ0
+              eSIgSEVJR0hUPSIyNyIgV0lEVEg9IjI2IiBWUE9TPSI2MzUiIEhQT1M9Ijk0NiIvPjxTUCBXSURUSD0i
+              MTgiIFZQT1M9IjYyOSIgSFBPUz0iOTczIi8+PFN0cmluZyBDT05URU5UPSJkw610a3kiIEhFSUdIVD0i
+              MzMiIFdJRFRIPSI3MCIgVlBPUz0iNjI5IiBIUE9TPSI5OTIiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSI2
+              MzgiIEhQT1M9IjEwNjMiLz48U3RyaW5nIENPTlRFTlQ9InYiIEhFSUdIVD0iMTYiIFdJRFRIPSIxNSIg
+              VlBPUz0iNjM4IiBIUE9TPSIxMDgxIi8+PFNQIFdJRFRIPSIxOCIgVlBPUz0iNjMwIiBIUE9TPSIxMDk3
+              Ii8+PFN0cmluZyBDT05URU5UPSJrb8SNw6Fya3UiIEhFSUdIVD0iMjQiIFdJRFRIPSIxMTIiIFZQT1M9
+              IjYzMCIgSFBPUz0iMTExNiIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElORT0iNjkwIiBIRUlH
+              SFQ9IjMxIiBXSURUSD0iMjg4IiBWUE9TPSI2NjUiIEhQT1M9Ijg0NSI+PFN0cmluZyBDT05URU5UPSLE
+              jWVybm9va8OpLCIgSEVJR0hUPSIzMSIgV0lEVEg9IjEzNCIgVlBPUz0iNjY1IiBIUE9TPSI4NDUiLz48
+              U1AgV0lEVEg9IjE3IiBWUE9TPSI2NzUiIEhQT1M9Ijk4MCIvPjxTdHJpbmcgQ09OVEVOVD0iemxhdG92
+              bGFzw6kiIEhFSUdIVD0iMjUiIFdJRFRIPSIxMzUiIFZQT1M9IjY2NSIgSFBPUz0iOTk4Ii8+PC9UZXh0
+              TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSI3MjUiIEhFSUdIVD0iMzMiIFdJRFRIPSIzNjEiIFZQT1M9
+              IjcwMCIgSFBPUz0iODgxIj48U3RyaW5nIENPTlRFTlQ9InDFmWlkw6FtIiBIRUlHSFQ9IjMzIiBXSURU
+              SD0iOTciIFZQT1M9IjcwMCIgSFBPUz0iODgxIi8+PFNQIFdJRFRIPSIxNCIgVlBPUz0iNzAxIiBIUE9T
+              PSI5NzkiLz48U3RyaW5nIENPTlRFTlQ9ImplxaF0xJsiIEhFSUdIVD0iMzIiIFdJRFRIPSI2OCIgVlBP
+              Uz0iNzAxIiBIUE9TPSI5OTQiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSI3MDIiIEhQT1M9IjEwNjMiLz48
+              U3RyaW5nIENPTlRFTlQ9InBvIiBIRUlHSFQ9IjI0IiBXSURUSD0iMzQiIFZQT1M9IjcwOSIgSFBPUz0i
+              MTA4MSIvPjxTUCBXSURUSD0iMTgiIFZQT1M9IjcwMSIgSFBPUz0iMTExNiIvPjxTdHJpbmcgQ09OVEVO
+              VD0iZMOhcmt1IeKAnCIgSEVJR0hUPSIyNCIgV0lEVEg9IjEwNyIgVlBPUz0iNzAxIiBIUE9TPSIxMTM1
+              Ii8+PC9UZXh0TGluZT4KPC9UZXh0QmxvY2s+PC9Db21wb3NlZEJsb2NrPgo8VGV4dEJsb2NrIElEPSJQ
+              YWdlMV9CbG9jazciIEhFSUdIVD0iMTUxIiBXSURUSD0iNTI1IiBWUE9TPSI4MDIiIEhQT1M9IjU1NiIg
+              bGFuZ3VhZ2U9ImNzIiBTVFlMRVJFRlM9IlN0eWxlSWQtNjMwRDEzRTEtMTNERS00RkQyLUEwNUMtMjJF
+              ODU3RDAxMDhCLSBmb250MCI+CjxUZXh0TGluZSBCQVNFTElORT0iODMyIiBIRUlHSFQ9IjMzIiBXSURU
+              SD0iNTE0IiBWUE9TPSI4MDciIEhQT1M9IjU2MiI+PFN0cmluZyBDT05URU5UPSJWIiBIRUlHSFQ9IjIz
+              IiBXSURUSD0iMjIiIFZQT1M9IjgwOCIgSFBPUz0iNTYyIi8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iODA4
+              IiBIUE9TPSI1ODUiLz48U3RyaW5nIENPTlRFTlQ9InRvbSIgSEVJR0hUPSIxOSIgV0lEVEg9IjUzIiBW
+              UE9TPSI4MTMiIEhQT1M9IjYwMyIvPjxTUCBXSURUSD0iMTciIFZQT1M9IjgwNyIgSFBPUz0iNjU3Ii8+
+              PFN0cmluZyBDT05URU5UPSJDaMWIYXAiIEhFSUdIVD0iMzMiIFdJRFRIPSI4OCIgVlBPUz0iODA3IiBI
+              UE9TPSI2NzUiLz48U1AgV0lEVEg9IjE5IiBWUE9TPSI4MTYiIEhQT1M9Ijc2NCIvPjxTdHJpbmcgQ09O
+              VEVOVD0icyIgSEVJR0hUPSIxNiIgV0lEVEg9IjExIiBWUE9TPSI4MTYiIEhQT1M9Ijc4NCIvPjxTUCBX
+              SURUSD0iMTciIFZQT1M9IjgwNyIgSFBPUz0iNzk2Ii8+PFN0cmluZyBDT05URU5UPSJCdWZlbSIgSEVJ
+              R0hUPSIyNSIgV0lEVEg9Ijg4IiBWUE9TPSI4MDciIEhQT1M9IjgxNCIvPjxTUCBXSURUSD0iMTciIFZQ
+              T1M9IjgxNiIgSFBPUz0iOTAzIi8+PFN0cmluZyBDT05URU5UPSJ2eWxldMSbbGkiIEhFSUdIVD0iMzMi
+              IFdJRFRIPSIxMDAiIFZQT1M9IjgwNyIgSFBPUz0iOTIxIi8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iODA5
+              IiBIUE9TPSIxMDIyIi8+PFN0cmluZyBDT05URU5UPSLigJQiIEhFSUdIVD0iMyIgV0lEVEg9IjM2IiBW
+              UE9TPSI4MjMiIEhQT1M9IjEwNDAiLz48L1RleHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJTkU9Ijg2NyIg
+              SEVJR0hUPSIzMiIgV0lEVEg9IjMzMyIgVlBPUz0iODQ0IiBIUE9TPSI1OTYiPjxTdHJpbmcgQ09OVEVO
+              VD0icMWZaWtyxI1lbmkiIEhFSUdIVD0iMzEiIFdJRFRIPSIxMjIiIFZQT1M9Ijg0NCIgSFBPUz0iNTk2
+              Ii8+PFNQIFdJRFRIPSIxNyIgVlBPUz0iODQ0IiBIUE9TPSI3MTkiLz48U3RyaW5nIENPTlRFTlQ9Inph
+              IiBIRUlHSFQ9IjE1IiBXSURUSD0iMjkiIFZQT1M9Ijg1MiIgSFBPUz0iNzM3Ii8+PFNQIFdJRFRIPSIx
+              NyIgVlBPUz0iODUyIiBIUE9TPSI3NjciLz48U3RyaW5nIENPTlRFTlQ9InZyw6F0a3kiIEhFSUdIVD0i
+              MzIiIFdJRFRIPSI5MCIgVlBPUz0iODQ0IiBIUE9TPSI3ODUiLz48U1AgV0lEVEg9IjE3IiBWUE9TPSI4
+              NTIiIEhQT1M9Ijg3NiIvPjxTdHJpbmcgQ09OVEVOVD0i4oCUIiBIRUlHSFQ9IjMiIFdJRFRIPSIzNSIg
+              VlBPUz0iODU4IiBIUE9TPSI4OTQiLz48L1RleHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJTkU9IjkwMyIg
+              SEVJR0hUPSIzMyIgV0lEVEg9IjMxOSIgVlBPUz0iODc5IiBIUE9TPSI1NjEiPjxTdHJpbmcgQ09OVEVO
+              VD0iY2h5dGlsaSwiIEhFSUdIVD0iMzMiIFdJRFRIPSI4NiIgVlBPUz0iODc5IiBIUE9TPSI1NjEiLz48
+              U1AgV0lEVEg9IjE4IiBWUE9TPSI4ODgiIEhQT1M9IjY0OCIvPjxTdHJpbmcgQ09OVEVOVD0iY28iIEhF
+              SUdIVD0iMTYiIFdJRFRIPSIyOSIgVlBPUz0iODg4IiBIUE9TPSI2NjciLz48U1AgV0lEVEg9IjE4IiBW
+              UE9TPSI4NzkiIEhQT1M9IjY5NyIvPjxTdHJpbmcgQ09OVEVOVD0iYmzDrXprbyIgSEVJR0hUPSIyNCIg
+              V0lEVEg9IjgxIiBWUE9TPSI4NzkiIEhQT1M9IjcxNiIvPjxTUCBXSURUSD0iMTgiIFZQT1M9Ijg4OCIg
+              SFBPUz0iNzk4Ii8+PFN0cmluZyBDT05URU5UPSJtxJtsaSwiIEhFSUdIVD0iMzAiIFdJRFRIPSI2MyIg
+              VlBPUz0iODgwIiBIUE9TPSI4MTciLz48L1RleHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJTkU9IjkzOSIg
+              SEVJR0hUPSIzMyIgV0lEVEg9IjMyMyIgVlBPUz0iOTE1IiBIUE9TPSI1OTYiPjxTdHJpbmcgQ09OVEVO
+              VD0ibmEiIEhFSUdIVD0iMTUiIFdJRFRIPSIzMiIgVlBPUz0iOTI0IiBIUE9TPSI1OTYiLz48U1AgV0lE
+              VEg9IjE3IiBWUE9TPSI5MjQiIEhQT1M9IjYyOSIvPjxTdHJpbmcgQ09OVEVOVD0idsSbxI1uw6kiIEhF
+              SUdIVD0iMjQiIFdJRFRIPSI3NyIgVlBPUz0iOTE1IiBIUE9TPSI2NDciLz48U1AgV0lEVEg9IjE3IiBW
+              UE9TPSI5MTUiIEhQT1M9IjcyNSIvPjxTdHJpbmcgQ09OVEVOVD0icHLDvSIgSEVJR0hUPSIzMiIgV0lE
+              VEg9IjQ3IiBWUE9TPSI5MTYiIEhQT1M9Ijc0MyIvPjxTUCBXSURUSD0iMTciIFZQT1M9IjkxNiIgSFBP
+              Uz0iNzkxIi8+PFN0cmluZyBDT05URU5UPSJvcGzDoXRreS4iIEhFSUdIVD0iMzMiIFdJRFRIPSIxMTAi
+              IFZQT1M9IjkxNSIgSFBPUz0iODA5Ii8+PC9UZXh0TGluZT4KPC9UZXh0QmxvY2s+CjwvUHJpbnRTcGFj
+              ZT4KPC9QYWdlPgo8L0xheW91dD4KPC9hbHRvPgo=
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="ALTO.1" LABEL="" CREATED="2015-07-29T12:59:12.756Z" MIMETYPE="text/plain" SIZE="13680">
+<foxml:binaryContent> 
+              77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8
+              YWx0byB4bWxucz0iaHR0cDovL3d3dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyIgeG1sbnM6
+              eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53
+              My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cDovL3d3
+              dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyBodHRwOi8vd3d3LmxvYy5nb3Yvc3RhbmRhcmRz
+              L2FsdG8vYWx0by12Mi4wLnhzZCI+CjxEZXNjcmlwdGlvbj4KPE1lYXN1cmVtZW50VW5pdD5waXhlbDwv
+              TWVhc3VyZW1lbnRVbml0Pgo8T0NSUHJvY2Vzc2luZyBJRD0iSWRPY3IiPjxvY3JQcm9jZXNzaW5nU3Rl
+              cD48cHJvY2Vzc2luZ0RhdGVUaW1lPjIwMTUtMDctMjk8L3Byb2Nlc3NpbmdEYXRlVGltZT48cHJvY2Vz
+              c2luZ1NvZnR3YXJlPjxzb2Z0d2FyZUNyZWF0b3I+QUJCWVk8L3NvZnR3YXJlQ3JlYXRvcj48c29mdHdh
+              cmVOYW1lPkFCQllZIFJlY29nbml0aW9uIFNlcnZlcjwvc29mdHdhcmVOYW1lPjxzb2Z0d2FyZVZlcnNp
+              b24+NC4wPC9zb2Z0d2FyZVZlcnNpb24+PC9wcm9jZXNzaW5nU29mdHdhcmU+PC9vY3JQcm9jZXNzaW5n
+              U3RlcD48L09DUlByb2Nlc3Npbmc+CjwvRGVzY3JpcHRpb24+CjxTdHlsZXM+PFRleHRTdHlsZSBJRD0i
+              Zm9udDAiIEZPTlRGQU1JTFk9IlRpbWVzIE5ldyBSb21hbiIgRk9OVFNJWkU9IjExIi8+PFRleHRTdHls
+              ZSBJRD0iZm9udDEiIEZPTlRGQU1JTFk9IlRpbWVzIE5ldyBSb21hbiIgRk9OVFNJWkU9IjIyIi8+CjxQ
+              YXJhZ3JhcGhTdHlsZSBJRD0iU3R5bGVJZC1GRkZGRkZGRi1GRkZGLUZGRkYtRkZGRi1GRkZGRkZGRkZG
+              RkYtIiBBTElHTj0iTGVmdCIgTEVGVD0iMC4iIFJJR0hUPSIwLiIgRklSU1RMSU5FPSIwLiIvPgo8UGFy
+              YWdyYXBoU3R5bGUgSUQ9IlN0eWxlSWQtOTlCQzgzRjEtQ0Q3Qi00OTFELUI5NUEtMDRGQjE0NDE3RkQ3
+              LSIgQUxJR049IkNlbnRlciIgTEVGVD0iMC4iIFJJR0hUPSIwLiIgRklSU1RMSU5FPSIwLiIgTElORVNQ
+              QUNFPSIyNC4zOTk5OTk2MiIvPgo8UGFyYWdyYXBoU3R5bGUgSUQ9IlN0eWxlSWQtNTIxRTY0MjMtOUU1
+              Qy00NDNFLThDNzgtRUZGNjM4MEU2NjVBLSIgQUxJR049IkxlZnQiIExFRlQ9IjAuIiBSSUdIVD0iMC4i
+              IEZJUlNUTElORT0iMC4iIExJTkVTUEFDRT0iMTIuMjM5OTk5NzciLz4KPC9TdHlsZXM+CjxMYXlvdXQ+
+              CjxQYWdlIElEPSJQYWdlMSIgUEhZU0lDQUxfSU1HX05SPSIxIiBIRUlHSFQ9IjI4MzciIFdJRFRIPSIy
+              MTU4Ij4KPFRvcE1hcmdpbiBIRUlHSFQ9IjMzNCIgV0lEVEg9IjIxNTgiIFZQT1M9IjAiIEhQT1M9IjAi
+              Pgo8L1RvcE1hcmdpbj4KPExlZnRNYXJnaW4gSEVJR0hUPSIxOTkwIiBXSURUSD0iMzA0IiBWUE9TPSIz
+              MzQiIEhQT1M9IjAiPgo8L0xlZnRNYXJnaW4+CjxSaWdodE1hcmdpbiBIRUlHSFQ9IjE5OTAiIFdJRFRI
+              PSIyODYiIFZQT1M9IjMzNCIgSFBPUz0iMTg3MiI+CjwvUmlnaHRNYXJnaW4+CjxCb3R0b21NYXJnaW4g
+              SEVJR0hUPSI1MTMiIFdJRFRIPSIyMTU4IiBWUE9TPSIyMzI0IiBIUE9TPSIwIj4KPC9Cb3R0b21NYXJn
+              aW4+CjxQcmludFNwYWNlIEhFSUdIVD0iMTk5MCIgV0lEVEg9IjE1NjgiIFZQT1M9IjMzNCIgSFBPUz0i
+              MzA0Ij4KPFRleHRCbG9jayBJRD0iUGFnZTFfQmxvY2sxIiBIRUlHSFQ9Ijk3IiBXSURUSD0iNTM2IiBW
+              UE9TPSIzMzQiIEhQT1M9IjkxNCIgbGFuZ3VhZ2U9ImNzIiBTVFlMRVJFRlM9IlN0eWxlSWQtOTlCQzgz
+              RjEtQ0Q3Qi00OTFELUI5NUEtMDRGQjE0NDE3RkQ3LSBmb250MSI+CjxUZXh0TGluZSBCQVNFTElORT0i
+              NDAzIiBIRUlHSFQ9Ijg0IiBXSURUSD0iNTI0IiBWUE9TPSIzNDEiIEhQT1M9IjkyMCI+PFN0cmluZyBD
+              T05URU5UPSJTbGF2bsO9IiBIRUlHSFQ9Ijg0IiBXSURUSD0iMjYzIiBWUE9TPSIzNDEiIEhQT1M9Ijky
+              MCIvPjxTUCBXSURUSD0iNDgiIFZQT1M9IjM0MiIgSFBPUz0iMTE4NCIvPjxTdHJpbmcgQ09OVEVOVD0i
+              a3VwZWMiIEhFSUdIVD0iODIiIFdJRFRIPSIyMTEiIFZQT1M9IjM0MiIgSFBPUz0iMTIzMyIvPjwvVGV4
+              dExpbmU+CjwvVGV4dEJsb2NrPgo8Q29tcG9zZWRCbG9jayBJRD0iUGFnZTFfQmxvY2syIiBIRUlHSFQ9
+              IjUzOCIgV0lEVEg9IjE0NTQiIFZQT1M9IjUyNCIgSFBPUz0iMzk1IiBUWVBFPSJjb250YWluZXIiPgo8
+              Q29tcG9zZWRCbG9jayBJRD0iUGFnZTFfQmxvY2szIiBIRUlHSFQ9IjUzNyIgV0lEVEg9IjYzOCIgVlBP
+              Uz0iNTI0IiBIUE9TPSIzOTUiIFRZUEU9ImNvbnRhaW5lciI+CjxUZXh0QmxvY2sgSUQ9IlBhZ2UxX0Js
+              b2NrNCIgSEVJR0hUPSIyMTciIFdJRFRIPSI2MzciIFZQT1M9IjUyNCIgSFBPUz0iMzk2IiBsYW5ndWFn
+              ZT0iY3MiIFNUWUxFUkVGUz0iU3R5bGVJZC01MjFFNjQyMy05RTVDLTQ0M0UtOEM3OC1FRkY2MzgwRTY2
+              NUEtIGZvbnQwIj4KPFRleHRMaW5lIEJBU0VMSU5FPSI1NzkiIEhFSUdIVD0iNjIiIFdJRFRIPSI1MjYi
+              IFZQT1M9IjUzMCIgSFBPUz0iNDA1Ij48U3RyaW5nIENPTlRFTlQ9Ikt1cGVjIiBIRUlHSFQ9IjYwIiBX
+              SURUSD0iMTI3IiBWUE9TPSI1MzAiIEhQT1M9IjQwNSIvPjxTUCBXSURUSD0iMjUiIFZQT1M9IjU1NyIg
+              SFBPUz0iNTMzIi8+PFN0cmluZyBDT05URU5UPSJwxZlpamVsIiBIRUlHSFQ9IjQ3IiBXSURUSD0iMTAw
+              IiBWUE9TPSI1NDUiIEhQT1M9IjU1OSIvPjxTUCBXSURUSD0iMjYiIFZQT1M9IjU0NSIgSFBPUz0iNjYw
+              Ii8+PFN0cmluZyBDT05URU5UPSJ6IiBIRUlHSFQ9IjIxIiBXSURUSD0iMTciIFZQT1M9IjU1NyIgSFBP
+              Uz0iNjg3Ii8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iNTU3IiBIUE9TPSI3MDUiLz48U3RyaW5nIENPTlRF
+              TlQ9ImNpesOtIiBIRUlHSFQ9IjM1IiBXSURUSD0iNjIiIFZQT1M9IjU0NSIgSFBPUz0iNzMyIi8+PFNQ
+              IFdJRFRIPSIyNSIgVlBPUz0iNTQ4IiBIUE9TPSI3OTUiLz48U3RyaW5nIENPTlRFTlQ9InplbcSbLCIg
+              SEVJR0hUPSI0MSIgV0lEVEg9IjExMCIgVlBPUz0iNTQ4IiBIUE9TPSI4MjEiLz48L1RleHRMaW5lPgo8
+              VGV4dExpbmUgQkFTRUxJTkU9IjYzMSIgSEVJR0hUPSIzNyIgV0lEVEg9IjUyOCIgVlBPUz0iNTk1IiBI
+              UE9TPSI0NTUiPjxTdHJpbmcgQ09OVEVOVD0iemJvxb7DrSIgSEVJR0hUPSIzNCIgV0lEVEg9IjEwMCIg
+              VlBPUz0iNTk3IiBIUE9TPSI0NTUiLz48U1AgV0lEVEg9IjI0IiBWUE9TPSI1OTciIEhQT1M9IjU1NiIv
+              PjxTdHJpbmcgQ09OVEVOVD0ia2xhZGwiIEhFSUdIVD0iMzYiIFdJRFRIPSI5NiIgVlBPUz0iNTk1IiBI
+              UE9TPSI1ODEiLz48U1AgV0lEVEg9IjI1IiBWUE9TPSI1OTUiIEhQT1M9IjY3OCIvPjxTdHJpbmcgQ09O
+              VEVOVD0ibmEiIEhFSUdIVD0iMjIiIFdJRFRIPSI0NiIgVlBPUz0iNjA4IiBIUE9TPSI3MDQiLz48U1Ag
+              V0lEVEg9IjI2IiBWUE9TPSI1OTciIEhQT1M9Ijc1MSIvPjxTdHJpbmcgQ09OVEVOVD0ia3LDoW3EmyIg
+              SEVJR0hUPSIzNSIgV0lEVEg9IjEyNiIgVlBPUz0iNTk3IiBIUE9TPSI3NzgiLz48U1AgV0lEVEg9IjI3
+              IiBWUE9TPSI1OTkiIEhQT1M9IjkwNSIvPjxTdHJpbmcgQ09OVEVOVD0i4oCUIiBIRUlHSFQ9IjQiIFdJ
+              RFRIPSI1MCIgVlBPUz0iNjE5IiBIUE9TPSI5MzMiLz48L1RleHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJ
+              TkU9IjY4MyIgSEVJR0hUPSI0NiIgV0lEVEg9IjYyNSIgVlBPUz0iNjQ3IiBIUE9TPSI0MDIiPjxTdHJp
+              bmcgQ09OVEVOVD0idm9sYWw6IiBIRUlHSFQ9IjM1IiBXSURUSD0iMTA1IiBWUE9TPSI2NDciIEhQT1M9
+              IjQwMiIvPjxTUCBXSURUSD0iMzAiIFZQT1M9IjY2MSIgSFBPUz0iNTA4Ii8+PFN0cmluZyBDT05URU5U
+              PSLigJ5Qcm9zw61tLCIgSEVJR0hUPSI0NSIgV0lEVEg9IjE2NiIgVlBPUz0iNjQ4IiBIUE9TPSI1Mzki
+              Lz48U1AgV0lEVEg9IjI3IiBWUE9TPSI2NjEiIEhQT1M9IjcwNiIvPjxTdHJpbmcgQ09OVEVOVD0icmHE
+              jXRlIiBIRUlHSFQ9IjMzIiBXSURUSD0iOTgiIFZQT1M9IjY1MCIgSFBPUz0iNzM0Ii8+PFNQIFdJRFRI
+              PSIyNiIgVlBPUz0iNjQ5IiBIUE9TPSI4MzMiLz48U3RyaW5nIENPTlRFTlQ9ImtlIiBIRUlHSFQ9IjM0
+              IiBXSURUSD0iNDciIFZQT1M9IjY0OSIgSFBPUz0iODYwIi8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iNjYx
+              IiBIUE9TPSI5MDgiLz48U3RyaW5nIENPTlRFTlQ9Im1uxJssIiBIRUlHSFQ9IjQyIiBXSURUSD0iOTIi
+              IFZQT1M9IjY1MCIgSFBPUz0iOTM1Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSI3MzQi
+              IEhFSUdIVD0iMzQiIFdJRFRIPSI1MjYiIFZQT1M9IjcwMSIgSFBPUz0iNDUzIj48U3RyaW5nIENPTlRF
+              TlQ9InbFoWUiIEhFSUdIVD0iMzMiIFdJRFRIPSI2NCIgVlBPUz0iNzAxIiBIUE9TPSI0NTMiLz48U1Ag
+              V0lEVEg9IjI2IiBWUE9TPSI3MDkiIEhQT1M9IjUxOCIvPjxTdHJpbmcgQ09OVEVOVD0idHUiIEhFSUdI
+              VD0iMjUiIFdJRFRIPSIzNSIgVlBPUz0iNzA5IiBIUE9TPSI1NDUiLz48U1AgV0lEVEg9IjI3IiBWUE9T
+              PSI3MTMiIEhQT1M9IjU4MSIvPjxTdHJpbmcgQ09OVEVOVD0idnrDoWNubyIgSEVJR0hUPSIzMiIgV0lE
+              VEg9IjEzNSIgVlBPUz0iNzAyIiBIUE9TPSI2MDkiLz48U1AgV0lEVEg9IjI2IiBWUE9TPSI3MTMiIEhQ
+              T1M9Ijc0NSIvPjxTdHJpbmcgQ09OVEVOVD0ibsOhcmFtbsSbIeKAnCIgSEVJR0hUPSIzNCIgV0lEVEg9
+              IjIwNyIgVlBPUz0iNzAxIiBIUE9TPSI3NzIiLz48L1RleHRMaW5lPgo8L1RleHRCbG9jaz4KPFRleHRC
+              bG9jayBJRD0iUGFnZTFfQmxvY2s1IiBIRUlHSFQ9IjIxNCIgV0lEVEg9IjYxOSIgVlBPUz0iODQ3IiBI
+              UE9TPSIzOTUiIGxhbmd1YWdlPSJjcyIgU1RZTEVSRUZTPSJTdHlsZUlkLTUyMUU2NDIzLTlFNUMtNDQz
+              RS04Qzc4LUVGRjYzODBFNjY1QS0gZm9udDAiPgo8VGV4dExpbmUgQkFTRUxJTkU9Ijg4OCIgSEVJR0hU
+              PSI0OCIgV0lEVEg9IjYwNyIgVlBPUz0iODUzIiBIUE9TPSI0MDEiPjxTdHJpbmcgQ09OVEVOVD0iUGFu
+              w60iIEhFSUdIVD0iMzUiIFdJRFRIPSI4NiIgVlBPUz0iODUzIiBIUE9TPSI0MDEiLz48U1AgV0lEVEg9
+              IjI1IiBWUE9TPSI4NTUiIEhQT1M9IjQ4OCIvPjxTdHJpbmcgQ09OVEVOVD0ieiIgSEVJR0hUPSIyMCIg
+              V0lEVEg9IjE2IiBWUE9TPSI4NjciIEhQT1M9IjUxNCIvPjxTUCBXSURUSD0iMjYiIFZQT1M9Ijg2NiIg
+              SFBPUz0iNTMxIi8+PFN0cmluZyBDT05URU5UPSJtxJtzdGEiIEhFSUdIVD0iMzQiIFdJRFRIPSIxMTYi
+              IFZQT1M9Ijg1NSIgSFBPUz0iNTU4Ii8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iODY3IiBIUE9TPSI2NzUi
+              Lz48U3RyaW5nIENPTlRFTlQ9InMiIEhFSUdIVD0iMjIiIFdJRFRIPSIxNyIgVlBPUz0iODY3IiBIUE9T
+              PSI3MDIiLz48U1AgV0lEVEg9IjI3IiBWUE9TPSI4NjciIEhQT1M9IjcyMCIvPjxTdHJpbmcgQ09OVEVO
+              VD0iY2jFr3ZvdSIgSEVJR0hUPSIzNCIgV0lEVEg9IjEzOSIgVlBPUz0iODU1IiBIUE9TPSI3NDgiLz48
+              U1AgV0lEVEg9IjI3IiBWUE9TPSI4NjciIEhQT1M9Ijg4OCIvPjxTdHJpbmcgQ09OVEVOVD0ic3ZvasOt
+              IiBIRUlHSFQ9IjQ1IiBXSURUSD0iOTIiIFZQT1M9Ijg1NiIgSFBPUz0iOTE2Ii8+PC9UZXh0TGluZT4K
+              PFRleHRMaW5lIEJBU0VMSU5FPSI5NDAiIEhFSUdIVD0iNDYiIFdJRFRIPSI0ODgiIFZQT1M9IjkwNiIg
+              SFBPUz0iNDUyIj48U3RyaW5nIENPTlRFTlQ9InDFmWlieWxhIiBIRUlHSFQ9IjQ2IiBXSURUSD0iMTM4
+              IiBWUE9TPSI5MDYiIEhQT1M9IjQ1MiIvPjxTUCBXSURUSD0iMjYiIFZQT1M9IjkxOCIgSFBPUz0iNTkx
+              Ii8+PFN0cmluZyBDT05URU5UPSJzZW0iIEhFSUdIVD0iMjIiIFdJRFRIPSI3OCIgVlBPUz0iOTE4IiBI
+              UE9TPSI2MTgiLz48U1AgV0lEVEg9IjI1IiBWUE9TPSI5MTgiIEhQT1M9IjY5NyIvPjxTdHJpbmcgQ09O
+              VEVOVD0iemEiIEhFSUdIVD0iMjIiIFdJRFRIPSI0MiIgVlBPUz0iOTE4IiBIUE9TPSI3MjMiLz48U1Ag
+              V0lEVEg9IjI1IiBWUE9TPSI5MDYiIEhQT1M9Ijc2NiIvPjxTdHJpbmcgQ09OVEVOVD0ia3LDoXRrbyIg
+              SEVJR0hUPSIzNCIgV0lEVEg9IjEzMCIgVlBPUz0iOTA2IiBIUE9TPSI3OTIiLz48U1AgV0lEVEg9IjEx
+              IiBWUE9TPSI5MTgiIEhQT1M9IjkyMyIvPjxTdHJpbmcgQ09OVEVOVD0iOiIgSEVJR0hUPSIyMiIgV0lE
+              VEg9IjUiIFZQT1M9IjkxOSIgSFBPUz0iOTM1Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VMSU5F
+              PSI5OTEiIEhFSUdIVD0iNDciIFdJRFRIPSI1NzciIFZQT1M9Ijk1NyIgSFBPUz0iNDA1Ij48U3RyaW5n
+              IENPTlRFTlQ9IuKAnlByb3PDrW0sIiBIRUlHSFQ9IjQ0IiBXSURUSD0iMTY0IiBWUE9TPSI5NTciIEhQ
+              T1M9IjQwNSIvPjxTUCBXSURUSD0iMjYiIFZQT1M9Ijk2OSIgSFBPUz0iNTcwIi8+PFN0cmluZyBDT05U
+              RU5UPSJwYW5lLCIgSEVJR0hUPSIzMyIgV0lEVEg9IjEwNCIgVlBPUz0iOTY5IiBIUE9TPSI1OTciLz48
+              U1AgV0lEVEg9IjI1IiBWUE9TPSI5NjkiIEhQT1M9IjcwMiIvPjxTdHJpbmcgQ09OVEVOVD0iY28iIEhF
+              SUdIVD0iMjIiIFdJRFRIPSI0MyIgVlBPUz0iOTY5IiBIUE9TPSI3MjgiLz48U1AgV0lEVEg9IjI1IiBW
+              UE9TPSI5NjkiIEhQT1M9Ijc3MiIvPjxTdHJpbmcgQ09OVEVOVD0icGFrIiBIRUlHSFQ9IjQ1IiBXSURU
+              SD0iNzQiIFZQT1M9Ijk1NyIgSFBPUz0iNzk4Ii8+PFNQIFdJRFRIPSIyNSIgVlBPUz0iOTU3IiBIUE9T
+              PSI4NzMiLz48U3RyaW5nIENPTlRFTlQ9InN0b2rDrSIgSEVJR0hUPSI0NiIgV0lEVEg9IjgzIiBWUE9T
+              PSI5NTgiIEhQT1M9Ijg5OSIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElORT0iMTA0MiIgSEVJ
+              R0hUPSI0NyIgV0lEVEg9IjQ4MSIgVlBPUz0iMTAwOCIgSFBPUz0iNDUwIj48U3RyaW5nIENPTlRFTlQ9
+              InBybyIgSEVJR0hUPSIzNCIgV0lEVEg9IjY2IiBWUE9TPSIxMDIwIiBIUE9TPSI0NTAiLz48U1AgV0lE
+              VEg9IjI2IiBWUE9TPSIxMDA4IiBIUE9TPSI1MTciLz48U3RyaW5nIENPTlRFTlQ9ImTEm3RpxI1reSIg
+              SEVJR0hUPSI0NyIgV0lEVEg9IjE0MyIgVlBPUz0iMTAwOCIgSFBPUz0iNTQ0Ii8+PFNQIFdJRFRIPSIy
+              NiIgVlBPUz0iMTAyMSIgSFBPUz0iNjg4Ii8+PFN0cmluZyBDT05URU5UPSJjdWtyw6F0a28/4oCcIiBI
+              RUlHSFQ9IjM1IiBXSURUSD0iMjE2IiBWUE9TPSIxMDA4IiBIUE9TPSI3MTUiLz48L1RleHRMaW5lPgo8
+              L1RleHRCbG9jaz48L0NvbXBvc2VkQmxvY2s+CjxUZXh0QmxvY2sgSUQ9IlBhZ2UxX0Jsb2NrNiIgSEVJ
+              R0hUPSI1MjIiIFdJRFRIPSI2MzkiIFZQT1M9IjU0MCIgSFBPUz0iMTIxMCIgbGFuZ3VhZ2U9ImNzIiBT
+              VFlMRVJFRlM9IlN0eWxlSWQtNTIxRTY0MjMtOUU1Qy00NDNFLThDNzgtRUZGNjM4MEU2NjVBLSBmb250
+              MCI+CjxUZXh0TGluZSBCQVNFTElORT0iNTgxIiBIRUlHSFQ9IjQ5IiBXSURUSD0iNTUxIiBWUE9TPSI1
+              NDUiIEhQT1M9IjEyMjQiPjxTdHJpbmcgQ09OVEVOVD0i4oCeVGlzw61jIiBIRUlHSFQ9IjQ1IiBXSURU
+              SD0iMTE4IiBWUE9TPSI1NDUiIEhQT1M9IjEyMjQiLz48U1AgV0lEVEg9IjI0IiBWUE9TPSI1NTkiIEhQ
+              T1M9IjEzNDMiLz48U3RyaW5nIENPTlRFTlQ9InBlbsSbeiwiIEhFSUdIVD0iNDYiIFdJRFRIPSIxMjUi
+              IFZQT1M9IjU0NyIgSFBPUz0iMTM2OCIvPjxTUCBXSURUSD0iMjYiIFZQT1M9IjU1OSIgSFBPUz0iMTQ5
+              NCIvPjxTdHJpbmcgQ09OVEVOVD0idnrDoWNuw6EiIEhFSUdIVD0iMzUiIFdJRFRIPSIxMzQiIFZQT1M9
+              IjU0NyIgSFBPUz0iMTUyMSIvPjxTUCBXSURUSD0iMjUiIFZQT1M9IjU0OCIgSFBPUz0iMTY1NiIvPjxT
+              dHJpbmcgQ09OVEVOVD0icGFuw60sIiBIRUlHSFQ9IjQ0IiBXSURUSD0iOTMiIFZQT1M9IjU1MCIgSFBP
+              Uz0iMTY4MiIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElORT0iNjMzIiBIRUlHSFQ9IjQ0IiBX
+              SURUSD0iMzg2IiBWUE9TPSI1OTgiIEhQT1M9IjEyNzEiPjxTdHJpbmcgQ09OVEVOVD0idGlzw61jLCIg
+              SEVJR0hUPSI0MyIgV0lEVEg9Ijg0IiBWUE9TPSI1OTkiIEhQT1M9IjEyNzEiLz48U1AgV0lEVEg9IjI1
+              IiBWUE9TPSI2MTAiIEhQT1M9IjEzNTYiLz48U3RyaW5nIENPTlRFTlQ9ImFsZSIgSEVJR0hUPSIzNSIg
+              V0lEVEg9IjU3IiBWUE9TPSI1OTgiIEhQT1M9IjEzODIiLz48U1AgV0lEVEg9IjI2IiBWUE9TPSI1OTgi
+              IEhQT1M9IjE0NDAiLz48U3RyaW5nIENPTlRFTlQ9ImRvc2xvdmEh4oCcIiBIRUlHSFQ9IjM2IiBXSURU
+              SD0iMTkwIiBWUE9TPSI1OTgiIEhQT1M9IjE0NjciLz48L1RleHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJ
+              TkU9IjY4NCIgSEVJR0hUPSI0OCIgV0lEVEg9IjUwMiIgVlBPUz0iNjQ5IiBIUE9TPSIxMjI1Ij48U3Ry
+              aW5nIENPTlRFTlQ9IuKAnk5lc2xldsOtdGUiIEhFSUdIVD0iNDUiIFdJRFRIPSIyMDciIFZQT1M9IjY0
+              OSIgSFBPUz0iMTIyNSIvPjxTUCBXSURUSD0iMjYiIFZQT1M9IjY1MCIgSFBPUz0iMTQzMyIvPjxTdHJp
+              bmcgQ09OVEVOVD0ia3JlamNhciIgSEVJR0hUPSI0NyIgV0lEVEg9IjE0MiIgVlBPUz0iNjUwIiBIUE9T
+              PSIxNDYwIi8+PFNQIFdJRFRIPSIyNSIgVlBPUz0iNjYyIiBIUE9TPSIxNjAzIi8+PFN0cmluZyBDT05U
+              RU5UPSJhbmk/4oCcIiBIRUlHSFQ9IjM0IiBXSURUSD0iOTgiIFZQT1M9IjY1MSIgSFBPUz0iMTYyOSIv
+              PjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElORT0iNzM2IiBIRUlHSFQ9IjQ3IiBXSURUSD0iNTY5
+              IiBWUE9TPSI3MDEiIEhQT1M9IjEyNzQiPjxTdHJpbmcgQ09OVEVOVD0i4oCeVSIgSEVJR0hUPSI0MyIg
+              V0lEVEg9IjU1IiBWUE9TPSI3MDEiIEhQT1M9IjEyNzQiLz48U1AgV0lEVEg9IjI3IiBWUE9TPSI3MDEi
+              IEhQT1M9IjEzMzAiLz48U3RyaW5nIENPTlRFTlQ9Im1uZSIgSEVJR0hUPSIyMiIgV0lEVEg9IjgyIiBW
+              UE9TPSI3MTQiIEhQT1M9IjEzNTgiLz48U1AgV0lEVEg9IjI3IiBWUE9TPSI3MTQiIEhQT1M9IjE0NDEi
+              Lz48U3RyaW5nIENPTlRFTlQ9InNlIiBIRUlHSFQ9IjIyIiBXSURUSD0iMzkiIFZQT1M9IjcxNCIgSFBP
+              Uz0iMTQ2OSIvPjxTUCBXSURUSD0iMjEiIFZQT1M9IjcwMiIgSFBPUz0iMTUwOSIvPjxTdHJpbmcgQ09O
+              VEVOVD0ianXFviIgSEVJR0hUPSI0NiIgV0lEVEg9IjU5IiBWUE9TPSI3MDIiIEhQT1M9IjE1MzEiLz48
+              U1AgV0lEVEg9IjI3IiBWUE9TPSI3MDQiIEhQT1M9IjE1OTEiLz48U3RyaW5nIENPTlRFTlQ9Im5lc21s
+              b3V2w6EhIiBIRUlHSFQ9IjM1IiBXSURUSD0iMjI0IiBWUE9TPSI3MDIiIEhQT1M9IjE2MTkiLz48L1Rl
+              eHRMaW5lPgo8VGV4dExpbmUgQkFTRUxJTkU9Ijg5MCIgSEVJR0hUPSI0NyIgV0lEVEg9IjUyMyIgVlBP
+              Uz0iODU2IiBIUE9TPSIxMjE2Ij48U3RyaW5nIENPTlRFTlQ9IkFieXN0ZSIgSEVJR0hUPSI0NSIgV0lE
+              VEg9IjE0MyIgVlBPUz0iODU2IiBIUE9TPSIxMjE2Ii8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iODY4IiBI
+              UE9TPSIxMzYwIi8+PFN0cmluZyBDT05URU5UPSJ2xaFhayIgSEVJR0hUPSIzNCIgV0lEVEg9IjkxIiBW
+              UE9TPSI4NTYiIEhQT1M9IjEzODciLz48U1AgV0lEVEg9IjI3IiBWUE9TPSI4NTYiIEhQT1M9IjE0Nzki
+              Lz48U3RyaW5nIENPTlRFTlQ9InDFmWnFoWx5IiBIRUlHSFQ9IjQ3IiBXSURUSD0iMTA5IiBWUE9TPSI4
+              NTYiIEhQT1M9IjE1MDciLz48U1AgV0lEVEg9IjI4IiBWUE9TPSI4NjkiIEhQT1M9IjE2MTciLz48U3Ry
+              aW5nIENPTlRFTlQ9Inphc2UsIiBIRUlHSFQ9IjMzIiBXSURUSD0iOTMiIFZQT1M9Ijg2OCIgSFBPUz0i
+              MTY0NiIvPjwvVGV4dExpbmU+CjxUZXh0TGluZSBCQVNFTElORT0iOTQxIiBIRUlHSFQ9IjQ3IiBXSURU
+              SD0iNTAwIiBWUE9TPSI5MDciIEhQT1M9IjEyNjciPjxTdHJpbmcgQ09OVEVOVD0icHJvIiBIRUlHSFQ9
+              IjM0IiBXSURUSD0iNjciIFZQT1M9IjkxOSIgSFBPUz0iMTI2NyIvPjxTUCBXSURUSD0iMjUiIFZQT1M9
+              IjkxNCIgSFBPUz0iMTMzNSIvPjxTdHJpbmcgQ09OVEVOVD0idHkiIEhFSUdIVD0iNDAiIFdJRFRIPSIz
+              OSIgVlBPUz0iOTE0IiBIUE9TPSIxMzYxIi8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iOTA3IiBIUE9TPSIx
+              NDAxIi8+PFN0cmluZyBDT05URU5UPSJkw610a3kiIEhFSUdIVD0iNDYiIFdJRFRIPSIxMDEiIFZQT1M9
+              IjkwNyIgSFBPUz0iMTQyOCIvPjxTUCBXSURUSD0iMjUiIFZQT1M9IjkyMCIgSFBPUz0iMTUzMCIvPjxT
+              dHJpbmcgQ09OVEVOVD0idiIgSEVJR0hUPSIyMSIgV0lEVEg9IjIyIiBWUE9TPSI5MjAiIEhQT1M9IjE1
+              NTYiLz48U1AgV0lEVEg9IjI3IiBWUE9TPSI5MDgiIEhQT1M9IjE1NzkiLz48U3RyaW5nIENPTlRFTlQ9
+              ImtvxI3DoXJrdSIgSEVJR0hUPSIzNCIgV0lEVEg9IjE2MCIgVlBPUz0iOTA4IiBIUE9TPSIxNjA3Ii8+
+              PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSI5OTMiIEhFSUdIVD0iNDQiIFdJRFRIPSI0MTMi
+              IFZQT1M9Ijk1OCIgSFBPUz0iMTIxNyI+PFN0cmluZyBDT05URU5UPSLEjWVybm9va8OpLCIgSEVJR0hU
+              PSI0NCIgV0lEVEg9IjE5MiIgVlBPUz0iOTU4IiBIUE9TPSIxMjE3Ii8+PFNQIFdJRFRIPSIyNiIgVlBP
+              Uz0iOTcyIiBIUE9TPSIxNDEwIi8+PFN0cmluZyBDT05URU5UPSJ6bGF0b3ZsYXPDqSIgSEVJR0hUPSIz
+              NSIgV0lEVEg9IjE5MyIgVlBPUz0iOTU4IiBIUE9TPSIxNDM3Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5l
+              IEJBU0VMSU5FPSIxMDQ0IiBIRUlHSFQ9IjQ3IiBXSURUSD0iNTE5IiBWUE9TPSIxMDA5IiBIUE9TPSIx
+              MjY4Ij48U3RyaW5nIENPTlRFTlQ9InDFmWlkw6FtIiBIRUlHSFQ9IjQ2IiBXSURUSD0iMTM5IiBWUE9T
+              PSIxMDA5IiBIUE9TPSIxMjY4Ii8+PFNQIFdJRFRIPSIyMiIgVlBPUz0iMTAxMCIgSFBPUz0iMTQwOCIv
+              PjxTdHJpbmcgQ09OVEVOVD0iamXFoXTEmyIgSEVJR0hUPSI0NiIgV0lEVEg9Ijk3IiBWUE9TPSIxMDEw
+              IiBIUE9TPSIxNDMxIi8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iMTAxMSIgSFBPUz0iMTUyOSIvPjxTdHJp
+              bmcgQ09OVEVOVD0icG8iIEhFSUdIVD0iMzMiIFdJRFRIPSI0OCIgVlBPUz0iMTAyMiIgSFBPUz0iMTU1
+              NiIvPjxTUCBXSURUSD0iMjgiIFZQT1M9IjEwMTAiIEhQT1M9IjE2MDUiLz48U3RyaW5nIENPTlRFTlQ9
+              ImTDoXJrdSHigJwiIEhFSUdIVD0iMzUiIFdJRFRIPSIxNTMiIFZQT1M9IjEwMTAiIEhQT1M9IjE2MzQi
+              Lz48L1RleHRMaW5lPgo8L1RleHRCbG9jaz48L0NvbXBvc2VkQmxvY2s+CjxUZXh0QmxvY2sgSUQ9IlBh
+              Z2UxX0Jsb2NrNyIgSEVJR0hUPSIyMTQiIFdJRFRIPSI3NTMiIFZQT1M9IjExNTYiIEhQT1M9IjgwMSIg
+              bGFuZ3VhZ2U9ImNzIiBTVFlMRVJFRlM9IlN0eWxlSWQtNTIxRTY0MjMtOUU1Qy00NDNFLThDNzgtRUZG
+              NjM4MEU2NjVBLSBmb250MCI+CjxUZXh0TGluZSBCQVNFTElORT0iMTE5OCIgSEVJR0hUPSI0OCIgV0lE
+              VEg9Ijc0MCIgVlBPUz0iMTE2MiIgSFBPUz0iODA4Ij48U3RyaW5nIENPTlRFTlQ9IlYiIEhFSUdIVD0i
+              MzQiIFdJRFRIPSIzMyIgVlBPUz0iMTE2MyIgSFBPUz0iODA4Ii8+PFNQIFdJRFRIPSIyNiIgVlBPUz0i
+              MTE2MyIgSFBPUz0iODQyIi8+PFN0cmluZyBDT05URU5UPSJ0b20iIEhFSUdIVD0iMjciIFdJRFRIPSI3
+              NSIgVlBPUz0iMTE3MSIgSFBPUz0iODY5Ii8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iMTE2MiIgSFBPUz0i
+              OTQ1Ii8+PFN0cmluZyBDT05URU5UPSJDaMWIYXAiIEhFSUdIVD0iNDciIFdJRFRIPSIxMjciIFZQT1M9
+              IjExNjIiIEhQT1M9Ijk3MiIvPjxTUCBXSURUSD0iMjciIFZQT1M9IjExNzUiIEhQT1M9IjExMDAiLz48
+              U3RyaW5nIENPTlRFTlQ9InMiIEhFSUdIVD0iMjIiIFdJRFRIPSIxNyIgVlBPUz0iMTE3NSIgSFBPUz0i
+              MTEyOCIvPjxTUCBXSURUSD0iMjUiIFZQT1M9IjExNjMiIEhQT1M9IjExNDYiLz48U3RyaW5nIENPTlRF
+              TlQ9IkJ1ZmVtIiBIRUlHSFQ9IjM2IiBXSURUSD0iMTI3IiBWUE9TPSIxMTYyIiBIUE9TPSIxMTcyIi8+
+              PFNQIFdJRFRIPSIyNSIgVlBPUz0iMTE3NSIgSFBPUz0iMTMwMCIvPjxTdHJpbmcgQ09OVEVOVD0idnls
+              ZXTEm2xpIiBIRUlHSFQ9IjQ3IiBXSURUSD0iMTQzIiBWUE9TPSIxMTYzIiBIUE9TPSIxMzI2Ii8+PFNQ
+              IFdJRFRIPSIyNiIgVlBPUz0iMTE2NSIgSFBPUz0iMTQ3MCIvPjxTdHJpbmcgQ09OVEVOVD0i4oCULSIg
+              SEVJR0hUPSI0IiBXSURUSD0iNTEiIFZQT1M9IjExODUiIEhQT1M9IjE0OTciLz48L1RleHRMaW5lPgo8
+              VGV4dExpbmUgQkFTRUxJTkU9IjEyNDkiIEhFSUdIVD0iNDciIFdJRFRIPSI0ODAiIFZQT1M9IjEyMTUi
+              IEhQT1M9Ijg1OCI+PFN0cmluZyBDT05URU5UPSJwxZlpa3LEjWVuaSIgSEVJR0hUPSI0NSIgV0lEVEg9
+              IjE3NSIgVlBPUz0iMTIxNSIgSFBPUz0iODU4Ii8+PFNQIFdJRFRIPSIyNSIgVlBPUz0iMTIxNiIgSFBP
+              Uz0iMTAzNCIvPjxTdHJpbmcgQ09OVEVOVD0iemEiIEhFSUdIVD0iMjIiIFdJRFRIPSI0MyIgVlBPUz0i
+              MTIyNyIgSFBPUz0iMTA2MCIvPjxTUCBXSURUSD0iMjUiIFZQT1M9IjEyMjciIEhQT1M9IjExMDQiLz48
+              U3RyaW5nIENPTlRFTlQ9InZyw6F0a3kiIEhFSUdIVD0iNDciIFdJRFRIPSIxMzAiIFZQT1M9IjEyMTUi
+              IEhQT1M9IjExMzAiLz48U1AgV0lEVEg9IjI0IiBWUE9TPSIxMjI4IiBIUE9TPSIxMjYxIi8+PFN0cmlu
+              ZyBDT05URU5UPSLigJQiIEhFSUdIVD0iNCIgV0lEVEg9IjUyIiBWUE9TPSIxMjM2IiBIUE9TPSIxMjg2
+              Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSIxMzAxIiBIRUlHSFQ9IjQ3IiBXSURUSD0i
+              NDU4IiBWUE9TPSIxMjY2IiBIUE9TPSI4MDgiPjxTdHJpbmcgQ09OVEVOVD0iY2h5dGlsaSwiIEhFSUdI
+              VD0iNDciIFdJRFRIPSIxMjQiIFZQT1M9IjEyNjYiIEhQT1M9IjgwOCIvPjxTUCBXSURUSD0iMjYiIFZQ
+              T1M9IjEyNzkiIEhQT1M9IjkzMyIvPjxTdHJpbmcgQ09OVEVOVD0iY28iIEhFSUdIVD0iMjIiIFdJRFRI
+              PSI0MiIgVlBPUz0iMTI3OSIgSFBPUz0iOTYwIi8+PFNQIFdJRFRIPSIyNiIgVlBPUz0iMTI2NiIgSFBP
+              Uz0iMTAwMyIvPjxTdHJpbmcgQ09OVEVOVD0iYmzDrXprbyIgSEVJR0hUPSIzNSIgV0lEVEg9IjExNyIg
+              VlBPUz0iMTI2NiIgSFBPUz0iMTAzMCIvPjxTUCBXSURUSD0iMjciIFZQT1M9IjEyNzkiIEhQT1M9IjEx
+              NDgiLz48U3RyaW5nIENPTlRFTlQ9Im3Em2xpLCIgSEVJR0hUPSI0MiIgV0lEVEg9IjkwIiBWUE9TPSIx
+              MjY3IiBIUE9TPSIxMTc2Ii8+PC9UZXh0TGluZT4KPFRleHRMaW5lIEJBU0VMSU5FPSIxMzUyIiBIRUlH
+              SFQ9IjQ2IiBXSURUSD0iNDY0IiBWUE9TPSIxMzE4IiBIUE9TPSI4NTgiPjxTdHJpbmcgQ09OVEVOVD0i
+              bmEiIEhFSUdIVD0iMjIiIFdJRFRIPSI0NiIgVlBPUz0iMTMzMCIgSFBPUz0iODU4Ii8+PFNQIFdJRFRI
+              PSIyNSIgVlBPUz0iMTMzMCIgSFBPUz0iOTA1Ii8+PFN0cmluZyBDT05URU5UPSJ2xJvEjW7DqSIgSEVJ
+              R0hUPSIzNCIgV0lEVEg9IjExMSIgVlBPUz0iMTMxOCIgSFBPUz0iOTMxIi8+PFNQIFdJRFRIPSIyNiIg
+              VlBPUz0iMTMxOCIgSFBPUz0iMTA0MyIvPjxTdHJpbmcgQ09OVEVOVD0icHLDvSIgSEVJR0hUPSI0NCIg
+              V0lEVEg9IjY2IiBWUE9TPSIxMzIwIiBIUE9TPSIxMDcwIi8+PFNQIFdJRFRIPSIyNyIgVlBPUz0iMTMy
+              MCIgSFBPUz0iMTEzNyIvPjxTdHJpbmcgQ09OVEVOVD0ib3Bsw6F0a3kuIiBIRUlHSFQ9IjQ2IiBXSURU
+              SD0iMTU3IiBWUE9TPSIxMzE4IiBIUE9TPSIxMTY1Ii8+PC9UZXh0TGluZT4KPC9UZXh0QmxvY2s+PEls
+              bHVzdHJhdGlvbiBJRD0iUGFnZTFfQmxvY2s4IiBIRUlHSFQ9IjgwMiIgV0lEVEg9IjE1NjgiIFZQT1M9
+              IjE1MjIiIEhQT1M9IjMwNCIvPgo8L1ByaW50U3BhY2U+CjwvUGFnZT4KPC9MYXlvdXQ+CjwvYWx0bz4K
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>

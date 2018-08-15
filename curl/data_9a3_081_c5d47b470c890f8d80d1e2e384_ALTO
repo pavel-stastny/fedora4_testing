@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="10"/><TextStyle ID="font1" FONTFAMILY="Times New Roman" FONTSIZE="14"/><TextStyle ID="font2" FONTFAMILY="Times New Roman" FONTSIZE="19"/><TextStyle ID="font3" FONTFAMILY="Times New Roman" FONTSIZE="21"/><TextStyle ID="font4" FONTFAMILY="Times New Roman" FONTSIZE="22"/>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+<ParagraphStyle ID="StyleId-0FFD8C39-F6EB-4020-85FF-816AE8F4183C-" ALIGN="Right" LEFT="0." RIGHT="0." FIRSTLINE="0." LINESPACE="11.10000038"/>
+<ParagraphStyle ID="StyleId-AB9CA1EF-2665-4A85-8AB6-9DAC18520257-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+<ParagraphStyle ID="StyleId-CA2576B5-B60F-4F75-A40A-0263BD2C4B0B-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0." LINESPACE="24.39999962"/>
+<ParagraphStyle ID="StyleId-00CCF502-05E2-4B8B-8631-57D0CA543935-" ALIGN="Right" LEFT="0." RIGHT="0." FIRSTLINE="0." LINESPACE="21."/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2843" WIDTH="2155">
+<TopMargin HEIGHT="2226" WIDTH="2155" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="408" WIDTH="1635" VPOS="2226" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="408" WIDTH="25" VPOS="2226" HPOS="2130">
+</RightMargin>
+<BottomMargin HEIGHT="209" WIDTH="2155" VPOS="2634" HPOS="0">
+<ComposedBlock ID="Page1_Block1" HEIGHT="85" WIDTH="431" VPOS="2758" HPOS="1724" TYPE="container"></ComposedBlock>
+</BottomMargin>
+<PrintSpace HEIGHT="408" WIDTH="495" VPOS="2226" HPOS="1635">
+<TextBlock ID="Page1_Block2" HEIGHT="408" WIDTH="495" VPOS="2226" HPOS="1635" STYLEREFS="StyleId-00CCF502-05E2-4B8B-8631-57D0CA543935- font2">
+<TextLine BASELINE="2338" HEIGHT="66" WIDTH="52" VPOS="2233" HPOS="1875" STYLEREFS="StyleId-0FFD8C39-F6EB-4020-85FF-816AE8F4183C- font0"><String STYLE="superscript italics" CONTENT="íS" HEIGHT="66" WIDTH="52" VPOS="2233" HPOS="1875"/></TextLine>
+<TextLine BASELINE="2490" HEIGHT="66" WIDTH="292" VPOS="2425" HPOS="1697" STYLEREFS="StyleId-CA2576B5-B60F-4F75-A40A-0263BD2C4B0B- font3"><String STYLE="bold" STYLEREFS="font4" CONTENT="«61" HEIGHT="66" WIDTH="120" VPOS="2425" HPOS="1697"/><SP WIDTH="32" VPOS="2425" HPOS="1818"/><String CONTENT="í\" HEIGHT="44" WIDTH="32" VPOS="2445" HPOS="1851"/><SP WIDTH="38" VPOS="2427" HPOS="1884"/><String CONTENT="i" HEIGHT="64" WIDTH="30" VPOS="2427" HPOS="1923"/><SP WIDTH="16" VPOS="2427" HPOS="1954"/><String CONTENT="t" HEIGHT="56" WIDTH="18" VPOS="2431" HPOS="1971"/></TextLine>
+<TextLine BASELINE="2622" HEIGHT="53" WIDTH="186" VPOS="2576" HPOS="1938"><String STYLE="italics" CONTENT="n" HEIGHT="46" WIDTH="40" VPOS="2583" HPOS="1938"/><SP WIDTH="16" VPOS="2580" HPOS="1979"/><String STYLEREFS="font1" CONTENT="1" HEIGHT="42" WIDTH="34" VPOS="2580" HPOS="1996"/><SP WIDTH="23" VPOS="2576" HPOS="2031"/><String STYLE="italics" CONTENT="li" HEIGHT="47" WIDTH="69" VPOS="2576" HPOS="2055"/></TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

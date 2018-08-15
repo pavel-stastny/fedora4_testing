@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2801" WIDTH="2130">
+<TopMargin HEIGHT="68" WIDTH="2130" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="2724" WIDTH="259" VPOS="68" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="2724" WIDTH="20" VPOS="68" HPOS="2110">
+</RightMargin>
+<BottomMargin HEIGHT="9" WIDTH="2130" VPOS="2792" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="2724" WIDTH="1851" VPOS="68" HPOS="259"><Illustration ID="Page1_Block1" HEIGHT="2724" WIDTH="1851" VPOS="68" HPOS="259"/><GraphicalElement ID="Page1_Block2" HEIGHT="731" WIDTH="16" VPOS="1549" HPOS="1800"/>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

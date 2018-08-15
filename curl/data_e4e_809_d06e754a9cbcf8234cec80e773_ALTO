@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="4"/>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+<ParagraphStyle ID="StyleId-ACBDB1D0-B673-4613-AA4D-7542094E6C2F-" ALIGN="Block" LEFT="0." RIGHT="0." FIRSTLINE="0." LINESPACE="4.400000095"/>
+<ParagraphStyle ID="StyleId-0B30AE31-2200-4744-83FE-DDD4CAA87686-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2778" WIDTH="2115">
+<LeftMargin HEIGHT="2730" WIDTH="305" VPOS="0" HPOS="0">
+</LeftMargin>
+<BottomMargin HEIGHT="48" WIDTH="2115" VPOS="2730" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="2730" WIDTH="1810" VPOS="0" HPOS="305">
+<ComposedBlock ID="Page1_Block1" HEIGHT="295" WIDTH="795" VPOS="0" HPOS="309" TYPE="container">
+<Illustration ID="Page1_Block2" HEIGHT="259" WIDTH="795" VPOS="0" HPOS="309"><Shape><Polygon POINTS="310,0 1104,0 1104,259 309,259 309,7 310,7 310,0"/></Shape></Illustration>
+<TextBlock ID="Page1_Block3" HEIGHT="36" WIDTH="184" VPOS="259" HPOS="837" STYLEREFS="StyleId-ACBDB1D0-B673-4613-AA4D-7542094E6C2F- font0">
+<TextLine BASELINE="279" HEIGHT="20" WIDTH="171" VPOS="266" HPOS="843"><String CONTENT="•" HEIGHT="3" WIDTH="3" VPOS="269" HPOS="843"/><SP WIDTH="110" VPOS="269" HPOS="847"/><String CONTENT="," HEIGHT="6" WIDTH="3" VPOS="277" HPOS="958"/><SP WIDTH="25" VPOS="277" HPOS="962"/><String STYLE="subscript" CONTENT="r" HEIGHT="6" WIDTH="6" VPOS="280" HPOS="988"/><SP WIDTH="14" VPOS="266" HPOS="995"/><String CONTENT="t" HEIGHT="12" WIDTH="4" VPOS="266" HPOS="1010"/></TextLine>
+</TextBlock></ComposedBlock>
+<ComposedBlock ID="Page1_Block4" HEIGHT="109" WIDTH="106" VPOS="37" HPOS="1155" TYPE="container"><Illustration ID="Page1_Block5" HEIGHT="58" WIDTH="106" VPOS="37" HPOS="1155"/></ComposedBlock><Illustration ID="Page1_Block6" HEIGHT="198" WIDTH="732" VPOS="0" HPOS="1383"/><Illustration ID="Page1_Block7" HEIGHT="66" WIDTH="872" VPOS="328" HPOS="310"/><Illustration ID="Page1_Block8" HEIGHT="218" WIDTH="472" VPOS="748" HPOS="758"/><Illustration ID="Page1_Block9" HEIGHT="241" WIDTH="156" VPOS="705" HPOS="1577"/>
+<ComposedBlock ID="Page1_Block10" HEIGHT="212" WIDTH="335" VPOS="338" HPOS="1780" TYPE="container"></ComposedBlock><Illustration ID="Page1_Block11" HEIGHT="113" WIDTH="94" VPOS="576" HPOS="1952"/><Illustration ID="Page1_Block12" HEIGHT="66" WIDTH="82" VPOS="703" HPOS="1790"/><Illustration ID="Page1_Block13" HEIGHT="152" WIDTH="331" VPOS="811" HPOS="1784"/>
+<Illustration ID="Page1_Block14" HEIGHT="1616" WIDTH="1810" VPOS="1114" HPOS="305"><Shape><Polygon POINTS="306,1114 2115,1114 2115,2721 1507,2721 1507,2730 900,2730 900,2722 305,2722 305,1247 306,1247 306,1114"/></Shape></Illustration>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

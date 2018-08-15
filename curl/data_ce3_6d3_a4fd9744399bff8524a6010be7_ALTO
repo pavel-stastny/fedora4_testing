@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="11"/>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+<ParagraphStyle ID="StyleId-AA88C8B6-C2F8-42B6-A805-0CB6C936E1DA-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="-26." LINESPACE="12.23999977"/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2774" WIDTH="2149">
+<TopMargin HEIGHT="374" WIDTH="2149" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="2074" WIDTH="242" VPOS="374" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="2074" WIDTH="367" VPOS="374" HPOS="1782">
+</RightMargin>
+<BottomMargin HEIGHT="326" WIDTH="2149" VPOS="2448" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="2074" WIDTH="1540" VPOS="374" HPOS="242">
+<Illustration ID="Page1_Block1" HEIGHT="440" WIDTH="448" VPOS="374" HPOS="382"><Shape><Polygon POINTS="382,374 712,374 712,546 698,546 698,666 756,666 756,752 802,752 802,770 830,770 830,806 812,806 812,810 698,810 698,814 382,814 382,374"/></Shape></Illustration>
+<TextBlock ID="Page1_Block2" HEIGHT="406" WIDTH="736" VPOS="560" HPOS="698" language="cs" STYLEREFS="StyleId-AA88C8B6-C2F8-42B6-A805-0CB6C936E1DA- font0"><Shape><Polygon POINTS="698,560 1434,560 1434,936 1394,936 1394,966 1248,966 1248,936 792,936 792,812 830,812 830,770 802,770 802,666 698,666 698,560"/></Shape>
+<TextLine BASELINE="599" HEIGHT="48" WIDTH="424" VPOS="564" HPOS="703"><String CONTENT="chuchu!" HEIGHT="36" WIDTH="148" VPOS="564" HPOS="703"/><SP WIDTH="26" VPOS="564" HPOS="852"/><String CONTENT="a" HEIGHT="22" WIDTH="22" VPOS="577" HPOS="879"/><SP WIDTH="25" VPOS="565" HPOS="902"/><String CONTENT="hejsa" HEIGHT="47" WIDTH="102" VPOS="565" HPOS="928"/><SP WIDTH="24" VPOS="565" HPOS="1031"/><String CONTENT="hej!" HEIGHT="47" WIDTH="71" VPOS="565" HPOS="1056"/></TextLine>
+<TextLine BASELINE="652" HEIGHT="46" WIDTH="613" VPOS="616" HPOS="804"><String CONTENT="zní" HEIGHT="32" WIDTH="55" VPOS="618" HPOS="804"/><SP WIDTH="25" VPOS="618" HPOS="860"/><String CONTENT="to" HEIGHT="28" WIDTH="37" VPOS="623" HPOS="886"/><SP WIDTH="26" VPOS="629" HPOS="924"/><String CONTENT="z" HEIGHT="21" WIDTH="18" VPOS="629" HPOS="951"/><SP WIDTH="26" VPOS="616" HPOS="970"/><String CONTENT="lesa" HEIGHT="36" WIDTH="76" VPOS="616" HPOS="997"/><SP WIDTH="25" VPOS="618" HPOS="1074"/><String CONTENT="houštkou" HEIGHT="34" WIDTH="181" VPOS="618" HPOS="1100"/><SP WIDTH="26" VPOS="631" HPOS="1282"/><String CONTENT="snětí;" HEIGHT="42" WIDTH="108" VPOS="620" HPOS="1309"/></TextLine>
+<TextLine BASELINE="703" HEIGHT="48" WIDTH="516" VPOS="669" HPOS="805"><String CONTENT="věnčí" HEIGHT="34" WIDTH="104" VPOS="669" HPOS="805"/><SP WIDTH="24" VPOS="669" HPOS="910"/><String CONTENT="se" HEIGHT="23" WIDTH="39" VPOS="680" HPOS="935"/><SP WIDTH="26" VPOS="676" HPOS="975"/><String CONTENT="tam" HEIGHT="27" WIDTH="75" VPOS="676" HPOS="1002"/><SP WIDTH="26" VPOS="681" HPOS="1078"/><String CONTENT="v" HEIGHT="22" WIDTH="23" VPOS="681" HPOS="1105"/><SP WIDTH="21" VPOS="669" HPOS="1129"/><String CONTENT="jarní" HEIGHT="47" WIDTH="94" VPOS="669" HPOS="1151"/><SP WIDTH="25" VPOS="671" HPOS="1246"/><String CONTENT="rej" HEIGHT="47" WIDTH="49" VPOS="670" HPOS="1272"/></TextLine>
+<TextLine BASELINE="755" HEIGHT="46" WIDTH="509" VPOS="720" HPOS="806"><String CONTENT="chumáč" HEIGHT="34" WIDTH="147" VPOS="720" HPOS="806"/><SP WIDTH="26" VPOS="720" HPOS="954"/><String CONTENT="dovádivých" HEIGHT="46" WIDTH="225" VPOS="720" HPOS="981"/><SP WIDTH="26" VPOS="721" HPOS="1207"/><String CONTENT="dětí." HEIGHT="35" WIDTH="81" VPOS="721" HPOS="1234"/></TextLine>
+<TextLine BASELINE="806" HEIGHT="46" WIDTH="460" VPOS="771" HPOS="830"><String CONTENT="láže" HEIGHT="35" WIDTH="76" VPOS="771" HPOS="830"/><SP WIDTH="26" VPOS="772" HPOS="907"/><String CONTENT="kačer:" HEIGHT="34" WIDTH="121" VPOS="772" HPOS="934"/><SP WIDTH="31" VPOS="785" HPOS="1056"/><String CONTENT="„Děti" HEIGHT="44" WIDTH="106" VPOS="772" HPOS="1088"/><SP WIDTH="28" VPOS="773" HPOS="1195"/><String CONTENT="mé," HEIGHT="43" WIDTH="66" VPOS="774" HPOS="1224"/></TextLine>
+<TextLine BASELINE="858" HEIGHT="47" WIDTH="409" VPOS="823" HPOS="806"><String CONTENT="počkejte," HEIGHT="47" WIDTH="178" VPOS="823" HPOS="806"/><SP WIDTH="26" VPOS="836" HPOS="985"/><String CONTENT="ať" HEIGHT="29" WIDTH="39" VPOS="829" HPOS="1012"/><SP WIDTH="23" VPOS="829" HPOS="1052"/><String CONTENT="vidíme," HEIGHT="44" WIDTH="139" VPOS="824" HPOS="1076"/></TextLine>
+<TextLine BASELINE="910" HEIGHT="58" WIDTH="529" VPOS="875" HPOS="807"><String CONTENT="co" HEIGHT="21" WIDTH="42" VPOS="886" HPOS="807"/><SP WIDTH="26" VPOS="882" HPOS="850"/><String CONTENT="tu" HEIGHT="26" WIDTH="36" VPOS="882" HPOS="877"/><SP WIDTH="27" VPOS="875" HPOS="914"/><String CONTENT="budou" HEIGHT="34" WIDTH="124" VPOS="875" HPOS="942"/><SP WIDTH="27" VPOS="887" HPOS="1067"/><String CONTENT="prováděfeigpr" HEIGHT="58" WIDTH="241" VPOS="875" HPOS="1095"/></TextLine>
+</TextBlock>
+<Illustration ID="Page1_Block3" HEIGHT="1502" WIDTH="1540" VPOS="946" HPOS="242"><Shape><Polygon POINTS="1394,946 1782,946 1782,2448 242,2448 242,968 1224,968 1224,966 1394,966 1394,946"/></Shape></Illustration><GraphicalElement ID="Page1_Block4" HEIGHT="58" WIDTH="7" VPOS="2118" HPOS="390"/><Illustration ID="Page1_Block5" HEIGHT="57" WIDTH="125" VPOS="2165" HPOS="895"/>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

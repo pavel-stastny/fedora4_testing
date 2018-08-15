@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><mods ID="MODS_VOLUME_0001"><titleInfo><title>Když slunéčko svítí</title><subTitle>verše</subTitle> 
+            </titleInfo><name type="personal"><namePart>Rais, Karel Václav</namePart><namePart type="date">1859-1926</namePart><role><roleTerm authority="marcrelator" type="code">aut</roleTerm> 
+              </role> 
+            </name><typeOfResource>text</typeOfResource><originInfo script="Latn"><place><placeTerm authority="marccountry" type="code">xr</placeTerm> 
+              </place><place><placeTerm type="text">Praha</placeTerm> 
+              </place><publisher>Al. Hynek</publisher><dateIssued>1889</dateIssued> 
+            </originInfo><language><languageTerm authority="iso639-2b" type="code">cze</languageTerm> 
+            </language><physicalDescription><form authority="marcform">print</form><form authority="marccategory">text</form><form authority="marcsmd">regular print</form><extent>1 sv.</extent> 
+            </physicalDescription><targetAudience authority="marctarget">specialized</targetAudience><location><shelfLocator>PK-0047.479</shelfLocator><holdingSimple><copyInformation><note/> 
+                </copyInformation> 
+              </holdingSimple><mods:physicalLocation xmlns:mods="http://www.loc.gov/mods/v3">BOA001</mods:physicalLocation>
+            </location><recordInfo><recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl (Revision 1.71)</recordOrigin><recordOrigin>Digital object was created by Metadata editor (code.google.com/p/meta-editor)</recordOrigin><recordContentSource authority="marcorg">BOA001</recordContentSource><recordCreationDate encoding="marc">980107</recordCreationDate><recordChangeDate encoding="iso8601">20110204131923.0</recordChangeDate><recordIdentifier source="CZ BrMZK">000329646</recordIdentifier><descriptionStandard>aacr</descriptionStandard><languageOfCataloging><languageTerm authority="iso639-2b" type="code">cze</languageTerm> 
+              </languageOfCataloging><mods:recordCreationDate xmlns:mods="http://www.loc.gov/mods/v3" encoding="iso8601">2012-06-28T10:02:39</mods:recordCreationDate><mods:recordChangeDate xmlns:mods="http://www.loc.gov/mods/v3" encoding="iso8601">2012-06-28T10:02:39</mods:recordChangeDate>
+            </recordInfo><mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="sysno">000329646</mods:identifier><mods:identifier xmlns:mods="http://www.loc.gov/mods/v3" type="uuid">uuid:530719f5-ee95-4449-8ce7-12b0f4cadb22</mods:identifier>
+          </mods> 
+        </modsCollection>

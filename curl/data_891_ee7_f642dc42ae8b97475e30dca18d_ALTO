@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Courier New" FONTSIZE="4"/>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+<ParagraphStyle ID="StyleId-198BA901-2622-41E2-A4F2-D74CBE36A380-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0." LINESPACE="4.5"/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2801" WIDTH="2130">
+<TopMargin HEIGHT="421" WIDTH="2130" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="2315" WIDTH="217" VPOS="421" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="2315" WIDTH="186" VPOS="421" HPOS="1944">
+</RightMargin>
+<BottomMargin HEIGHT="65" WIDTH="2130" VPOS="2736" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="2315" WIDTH="1727" VPOS="421" HPOS="217">
+<Illustration ID="Page1_Block1" HEIGHT="2315" WIDTH="1727" VPOS="421" HPOS="217"><Shape><Polygon POINTS="217,421 1944,421 1944,2736 891,2736 891,2421 217,2421 217,421"/></Shape></Illustration>
+<TextBlock ID="Page1_Block2" HEIGHT="24" WIDTH="53" VPOS="2415" HPOS="833" language="ru" STYLEREFS="StyleId-198BA901-2622-41E2-A4F2-D74CBE36A380- font0">
+<TextLine BASELINE="2432" HEIGHT="17" WIDTH="34" VPOS="2415" HPOS="851"><String CONTENT="&quot;л" HEIGHT="17" WIDTH="34" VPOS="2415" HPOS="851"/></TextLine>
+</TextBlock><GraphicalElement ID="Page1_Block3" HEIGHT="13" WIDTH="170" VPOS="1188" HPOS="1607"/><GraphicalElement ID="Page1_Block4" HEIGHT="211" WIDTH="12" VPOS="1026" HPOS="301"/><GraphicalElement ID="Page1_Block5" HEIGHT="466" WIDTH="16" VPOS="1436" HPOS="304"/><GraphicalElement ID="Page1_Block6" HEIGHT="196" WIDTH="8" VPOS="1795" HPOS="419"/><GraphicalElement ID="Page1_Block7" HEIGHT="301" WIDTH="21" VPOS="1125" HPOS="1761"/><GraphicalElement ID="Page1_Block8" HEIGHT="7" WIDTH="58" VPOS="2247" HPOS="496"/><GraphicalElement ID="Page1_Block9" HEIGHT="34" WIDTH="5" VPOS="2227" HPOS="513"/><Illustration ID="Page1_Block10" HEIGHT="91" WIDTH="83" VPOS="2322" HPOS="826"/>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

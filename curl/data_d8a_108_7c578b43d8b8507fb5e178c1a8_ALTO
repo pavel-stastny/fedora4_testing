@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="11"/>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+<ParagraphStyle ID="StyleId-E62908F5-A8FF-4065-AC7C-B5654A48F100-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0." LINESPACE="12.23999977"/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2801" WIDTH="2084">
+<TopMargin HEIGHT="492" WIDTH="2084" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="1928" WIDTH="362" VPOS="492" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="1928" WIDTH="365" VPOS="492" HPOS="1719">
+</RightMargin>
+<BottomMargin HEIGHT="381" WIDTH="2084" VPOS="2420" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="1928" WIDTH="1357" VPOS="492" HPOS="362">
+<Illustration ID="Page1_Block1" HEIGHT="1458" WIDTH="1357" VPOS="492" HPOS="362"><Shape><Polygon POINTS="478,492 1719,492 1719,1950 362,1950 362,1380 447,1380 447,1378 362,1378 362,999 452,999 452,836 478,836 478,492"/></Shape></Illustration>
+<TextBlock ID="Page1_Block2" HEIGHT="215" WIDTH="741" VPOS="2205" HPOS="717" language="cs" STYLEREFS="StyleId-E62908F5-A8FF-4065-AC7C-B5654A48F100- font0">
+<TextLine BASELINE="2246" HEIGHT="48" WIDTH="672" VPOS="2211" HPOS="727"><String CONTENT="Když" HEIGHT="48" WIDTH="102" VPOS="2211" HPOS="727"/><SP WIDTH="26" VPOS="2212" HPOS="830"/><String CONTENT="jeden" HEIGHT="46" WIDTH="109" VPOS="2212" HPOS="857"/><SP WIDTH="25" VPOS="2224" HPOS="967"/><String CONTENT="pláče," HEIGHT="47" WIDTH="112" VPOS="2211" HPOS="993"/><SP WIDTH="24" VPOS="2213" HPOS="1106"/><String CONTENT="že" HEIGHT="34" WIDTH="41" VPOS="2213" HPOS="1131"/><SP WIDTH="26" VPOS="2224" HPOS="1173"/><String CONTENT="chce" HEIGHT="35" WIDTH="85" VPOS="2211" HPOS="1200"/><SP WIDTH="26" VPOS="2211" HPOS="1286"/><String CONTENT="kaši," HEIGHT="45" WIDTH="86" VPOS="2211" HPOS="1313"/></TextLine>
+<TextLine BASELINE="2298" HEIGHT="48" WIDTH="676" VPOS="2262" HPOS="776"><String CONTENT="hned" HEIGHT="34" WIDTH="96" VPOS="2264" HPOS="776"/><SP WIDTH="25" VPOS="2264" HPOS="873"/><String CONTENT="mručí" HEIGHT="33" WIDTH="110" VPOS="2265" HPOS="899"/><SP WIDTH="26" VPOS="2264" HPOS="1010"/><String CONTENT="druhý:" HEIGHT="46" WIDTH="125" VPOS="2263" HPOS="1037"/><SP WIDTH="31" VPOS="2276" HPOS="1163"/><String CONTENT="„Taky" HEIGHT="47" WIDTH="128" VPOS="2263" HPOS="1195"/><SP WIDTH="27" VPOS="2276" HPOS="1324"/><String CONTENT="rád‘4" HEIGHT="35" WIDTH="100" VPOS="2262" HPOS="1352"/></TextLine>
+<TextLine BASELINE="2349" HEIGHT="46" WIDTH="527" VPOS="2315" HPOS="723"><String CONTENT="a" HEIGHT="22" WIDTH="21" VPOS="2327" HPOS="723"/><SP WIDTH="26" VPOS="2327" HPOS="745"/><String CONTENT="potom" HEIGHT="38" WIDTH="125" VPOS="2323" HPOS="772"/><SP WIDTH="28" VPOS="2327" HPOS="898"/><String CONTENT="oba" HEIGHT="34" WIDTH="71" VPOS="2316" HPOS="927"/><SP WIDTH="26" VPOS="2315" HPOS="999"/><String CONTENT="dobří" HEIGHT="35" WIDTH="104" VPOS="2315" HPOS="1026"/><SP WIDTH="24" VPOS="2315" HPOS="1131"/><String CONTENT="braši" HEIGHT="34" WIDTH="94" VPOS="2315" HPOS="1156"/></TextLine>
+<TextLine BASELINE="2401" HEIGHT="49" WIDTH="644" VPOS="2365" HPOS="774"><String CONTENT="jsou" HEIGHT="45" WIDTH="79" VPOS="2368" HPOS="774"/><SP WIDTH="28" VPOS="2379" HPOS="854"/><String CONTENT="stejně" HEIGHT="46" WIDTH="115" VPOS="2368" HPOS="883"/><SP WIDTH="26" VPOS="2369" HPOS="999"/><String CONTENT="zamouněných" HEIGHT="46" WIDTH="266" VPOS="2367" HPOS="1026"/><SP WIDTH="28" VPOS="2367" HPOS="1293"/><String CONTENT="brad." HEIGHT="36" WIDTH="96" VPOS="2365" HPOS="1322"/></TextLine>
+</TextBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

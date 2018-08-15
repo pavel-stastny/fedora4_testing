@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles><TextStyle ID="font0" FONTFAMILY="Arial" FONTSIZE="5"/><TextStyle ID="font1" FONTFAMILY="Arial" FONTSIZE="9"/>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+<ParagraphStyle ID="StyleId-48660848-B1DE-4C3F-8F9B-934887535061-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0." LINESPACE="10."/>
+<ParagraphStyle ID="StyleId-42ED394D-198E-445E-9802-C651715F750F-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2841" WIDTH="2126">
+<TopMargin HEIGHT="14" WIDTH="2126" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="2827" WIDTH="258" VPOS="14" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="2827" WIDTH="126" VPOS="14" HPOS="2000">
+</RightMargin>
+<PrintSpace HEIGHT="2827" WIDTH="1742" VPOS="14" HPOS="258">
+<ComposedBlock ID="Page1_Block1" HEIGHT="132" WIDTH="502" VPOS="14" HPOS="258" TYPE="container"></ComposedBlock><Illustration ID="Page1_Block2" HEIGHT="325" WIDTH="878" VPOS="25" HPOS="914"/><Illustration ID="Page1_Block3" HEIGHT="103" WIDTH="299" VPOS="1995" HPOS="387"/>
+<ComposedBlock ID="Page1_Block4" HEIGHT="425" WIDTH="1696" VPOS="2416" HPOS="304" TYPE="container">
+<TextBlock ID="Page1_Block5" HEIGHT="36" WIDTH="72" VPOS="2588" HPOS="1472" language="cs" STYLEREFS="StyleId-48660848-B1DE-4C3F-8F9B-934887535061- font1">
+<TextLine BASELINE="2610" HEIGHT="20" WIDTH="41" VPOS="2594" HPOS="1487"><String CONTENT="v" HEIGHT="20" WIDTH="17" VPOS="2594" HPOS="1487"/><SP WIDTH="12" VPOS="2594" HPOS="1505"/><String STYLE="italics" STYLEREFS="font0" CONTENT="&lt;" HEIGHT="12" WIDTH="10" VPOS="2597" HPOS="1518"/></TextLine>
+</TextBlock></ComposedBlock>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

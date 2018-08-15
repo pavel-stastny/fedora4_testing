@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+<Description>
+<MeasurementUnit>pixel</MeasurementUnit>
+<OCRProcessing ID="IdOcr"><ocrProcessingStep><processingDateTime>2015-07-29</processingDateTime><processingSoftware><softwareCreator>ABBYY</softwareCreator><softwareName>ABBYY Recognition Server</softwareName><softwareVersion>4.0</softwareVersion></processingSoftware></ocrProcessingStep></OCRProcessing>
+</Description>
+<Styles>
+<ParagraphStyle ID="StyleId-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-" ALIGN="Left" LEFT="0." RIGHT="0." FIRSTLINE="0."/>
+</Styles>
+<Layout>
+<Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2778" WIDTH="2115">
+<TopMargin HEIGHT="702" WIDTH="2115" VPOS="0" HPOS="0">
+</TopMargin>
+<LeftMargin HEIGHT="222" WIDTH="63" VPOS="702" HPOS="0">
+</LeftMargin>
+<RightMargin HEIGHT="222" WIDTH="326" VPOS="702" HPOS="1789">
+</RightMargin>
+<BottomMargin HEIGHT="1854" WIDTH="2115" VPOS="924" HPOS="0">
+</BottomMargin>
+<PrintSpace HEIGHT="222" WIDTH="1726" VPOS="702" HPOS="63">
+<Illustration ID="Page1_Block1" HEIGHT="222" WIDTH="275" VPOS="702" HPOS="63"><Shape><Polygon POINTS="63,702 337,702 337,708 338,708 338,839 319,839 319,840 316,840 316,842 319,842 319,862 333,862 333,924 63,924 63,702"/></Shape></Illustration><Illustration ID="Page1_Block2" HEIGHT="57" WIDTH="103" VPOS="822" HPOS="1686"/>
+</PrintSpace>
+</Page>
+</Layout>
+</alto>

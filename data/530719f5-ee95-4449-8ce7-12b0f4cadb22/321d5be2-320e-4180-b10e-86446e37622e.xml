@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="uuid:321d5be2-320e-4180-b10e-86446e37622e"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="[56]"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="fedoraAdmin"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2012-06-28T08:02:25.500Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2015-07-29T12:59:00.598Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2012-06-28T08:02:25.500Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:02.490Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC2">
+<audit:process type="Fedora API-M"/>
+<audit:action>purgeDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:02.839Z</audit:date>
+<audit:justification> . . . Purged datastream (ID=POLICY), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 0 datastream version(s) () and all associated audit records.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC3">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:02.894Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC4">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByValue</audit:action>
+<audit:componentID>DC</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:02.955Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC5">
+<audit:process type="Fedora API-M"/>
+<audit:action>purgeDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:03.227Z</audit:date>
+<audit:justification> . . . Purged datastream (ID=POLICY), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 1 datastream version(s) (2012-07-16T13:23:02.894Z) and all associated audit records.</audit:justification>
+</audit:record>
+<audit:record ID="AUDREC6">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>POLICY</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2012-07-16T11:23:03.287Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC7">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>TEXT_OCR</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-05T13:23:51.502Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC8">
+<audit:process type="Fedora API-M"/>
+<audit:action>addDatastream</audit:action>
+<audit:componentID>ALTO</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-05T13:23:52.038Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC9">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>TEXT_OCR</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-29T12:58:59.630Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+<audit:record ID="AUDREC10">
+<audit:process type="Fedora API-M"/>
+<audit:action>modifyDatastreamByReference</audit:action>
+<audit:componentID>ALTO</audit:componentID>
+<audit:responsibility>fedoraAdmin</audit:responsibility>
+<audit:date>2015-07-29T12:59:00.598Z</audit:date>
+<audit:justification></audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC.0" LABEL="Dublin Core Record for this object" CREATED="2012-06-28T10:02:37.000Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="470">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>[56]</dc:title>
+  <dc:type>model:page</dc:type>
+  <dc:identifier>uuid:321d5be2-320e-4180-b10e-86446e37622e</dc:identifier>
+  <dc:rights>policy:private</dc:rights>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.1" LABEL="Dublin Core Record for this object" CREATED="2012-07-16T11:23:02.490Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="469">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>[56]</dc:title>
+  <dc:type>model:page</dc:type>
+  <dc:identifier>uuid:321d5be2-320e-4180-b10e-86446e37622e</dc:identifier>
+  <dc:rights>policy:public</dc:rights>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="DC.2" LABEL="Dublin Core Record for this object" CREATED="2012-07-16T11:23:02.955Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="469">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>[56]</dc:title>
+  <dc:type>model:page</dc:type>
+  <dc:identifier>uuid:321d5be2-320e-4180-b10e-86446e37622e</dc:identifier>
+  <dc:rights>policy:public</dc:rights>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="BIBLIO_MODS" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="BIBLIO_MODS.0" LABEL="BIBLIO_MODS description of current object" CREATED="2012-06-28T10:02:37.000Z" MIMETYPE="text/xml" FORMAT_URI="http://www.loc.gov/mods/v3" SIZE="1148">
+<foxml:xmlContent>
+<mods:modsCollection xmlns:mods="http://www.loc.gov/mods/v3" schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+          <mods:mods version="3.3">
+            <mods:identifier type="urn">321d5be2-320e-4180-b10e-86446e37622e</mods:identifier>
+            <mods:identifier type="sici"></mods:identifier>
+            <mods:titleInfo>
+              <mods:title>[56]</mods:title>
+            </mods:titleInfo>
+            <mods:typeOfResource>text</mods:typeOfResource>
+            <mods:part type="NormalPage">
+              <mods:detail type="pageNumber">
+                <mods:number>[56]</mods:number>
+              </mods:detail>
+              <mods:detail type="pageIndex">
+                <mods:number>56</mods:number>
+              </mods:detail>
+            </mods:part>
+            <mods:location>
+              <mods:url>http://kramerius.mzk.cz/search/handle/uuid:321d5be2-320e-4180-b10e-86446e37622e</mods:url>
+            </mods:location>
+            <mods:identifier type="uuid">uuid:321d5be2-320e-4180-b10e-86446e37622e</mods:identifier>
+          </mods:mods>
+        </mods:modsCollection>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS_EXT.0" LABEL="RDF Statements about this object" CREATED="2012-06-28T10:02:37.000Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="757">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:kramerius="http://www.nsdl.org/ontologies/relationships#">
+          <rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+            <fedora-model:hasModel xmlns:fedora-model="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></fedora-model:hasModel>
+            <oai:itemID xmlns:oai="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</oai:itemID>
+            <kramerius:policy>policy:private</kramerius:policy>
+            <kramerius:tiles-url>http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</kramerius:tiles-url>
+          </rdf:Description>
+        </rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.1" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:02.714Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="553">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.2" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:02.785Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="639">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.3" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:03.160Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="553">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.4" LABEL="RDF Statements about this object" CREATED="2012-07-16T11:23:03.191Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="639">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.5" LABEL="RDF Statements about this object" CREATED="2012-08-06T09:30:50.712Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="761">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:d3f011e3-f1fd-4025-a907-68a860460841"></rdf:isMemberOfCollection>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.6" LABEL="RDF Statements about this object" CREATED="2013-01-03T13:59:14.948Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="639">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.7" LABEL="RDF Statements about this object" CREATED="2013-01-03T14:00:24.146Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="761">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:d3f011e3-f1fd-4025-a907-68a860460841"></rdf:isMemberOfCollection>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="RELS-EXT.8" LABEL="RDF Statements about this object" CREATED="2013-07-08T08:45:43.464Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="883">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="info:fedora/uuid:321d5be2-320e-4180-b10e-86446e37622e">
+	<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/model:page"></hasModel>
+	<itemID xmlns="http://www.openarchives.org/OAI/2.0/">uuid:321d5be2-320e-4180-b10e-86446e37622e</itemID>
+	<tiles-url xmlns="http://www.nsdl.org/ontologies/relationships#">http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e</tiles-url>
+	<policy xmlns="http://www.nsdl.org/ontologies/relationships#">policy:public</policy>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:d3f011e3-f1fd-4025-a907-68a860460841"></rdf:isMemberOfCollection>
+	<rdf:isMemberOfCollection rdf:resource="info:fedora/vc:9eb85860-f6ee-4ea2-9e85-7c5232a9e96e"></rdf:isMemberOfCollection>
+</rdf:Description>
+
+</rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="IMG_FULL" STATE="A" CONTROL_GROUP="R" VERSIONABLE="true">
+<foxml:datastreamVersion ID="IMG_FULL.0" LABEL="" CREATED="2012-06-28T10:02:37.000Z" MIMETYPE="image/jpeg">
+<foxml:contentLocation TYPE="URL" REF="http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e/big.jpg"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="IMG_THUMB" STATE="A" CONTROL_GROUP="R" VERSIONABLE="true">
+<foxml:datastreamVersion ID="IMG_THUMB.0" LABEL="" CREATED="2012-06-28T10:02:37.000Z" MIMETYPE="image/jpeg">
+<foxml:contentLocation TYPE="URL" REF="http://imageserver.mzk.cz/mzk01/000/329/646/321d5be2-320e-4180-b10e-86446e37622e/preview.jpg"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="POLICY" STATE="A" CONTROL_GROUP="E" VERSIONABLE="false">
+<foxml:datastreamVersion ID="POLICY.0" LABEL="" CREATED="2012-07-16T11:23:03.287Z" MIMETYPE="application/rdf+xml">
+<foxml:contentLocation TYPE="URL" REF="http://local.fedora.server/fedora/get/policy:public/POLICYDEF"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="TEXT_OCR" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="TEXT_OCR.0" LABEL="" CREATED="2015-07-05T13:23:51.502Z" MIMETYPE="text/plain" SIZE="52">
+<foxml:binaryContent> 
+              77u/0KbQm30g4pagCV4KTVpLLVBLINCS0YIt0L/QvgoqMzExOTkyOTEzNioKMTk1NjA1Cg==
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="TEXT_OCR.1" LABEL="" CREATED="2015-07-29T12:58:59.630Z" MIMETYPE="text/plain" SIZE="53">
+<foxml:binaryContent> 
+              77u/J9CbCtC7Ck1aSy1QSyBCci1ubwrigKIzMTE5OTI5MTNTKgoxOTY2OTUK0JPQnCA3OQo=
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="ALTO" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="ALTO.0" LABEL="" CREATED="2015-07-05T13:23:52.038Z" MIMETYPE="text/plain" SIZE="4356">
+<foxml:binaryContent> 
+              77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8
+              YWx0byB4bWxucz0iaHR0cDovL3d3dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyIgeG1sbnM6
+              eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53
+              My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cDovL3d3
+              dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyBodHRwOi8vd3d3LmxvYy5nb3Yvc3RhbmRhcmRz
+              L2FsdG8vYWx0by12Mi4wLnhzZCI+CjxEZXNjcmlwdGlvbj4KPE1lYXN1cmVtZW50VW5pdD5waXhlbDwv
+              TWVhc3VyZW1lbnRVbml0Pgo8T0NSUHJvY2Vzc2luZyBJRD0iSWRPY3IiPjxvY3JQcm9jZXNzaW5nU3Rl
+              cD48cHJvY2Vzc2luZ0RhdGVUaW1lPjIwMTUtMDctMDU8L3Byb2Nlc3NpbmdEYXRlVGltZT48cHJvY2Vz
+              c2luZ1NvZnR3YXJlPjxzb2Z0d2FyZUNyZWF0b3I+QUJCWVk8L3NvZnR3YXJlQ3JlYXRvcj48c29mdHdh
+              cmVOYW1lPkFCQllZIFJlY29nbml0aW9uIFNlcnZlcjwvc29mdHdhcmVOYW1lPjxzb2Z0d2FyZVZlcnNp
+              b24+NC4wPC9zb2Z0d2FyZVZlcnNpb24+PC9wcm9jZXNzaW5nU29mdHdhcmU+PC9vY3JQcm9jZXNzaW5n
+              U3RlcD48L09DUlByb2Nlc3Npbmc+CjwvRGVzY3JpcHRpb24+CjxTdHlsZXM+PFRleHRTdHlsZSBJRD0i
+              Zm9udDAiIEZPTlRGQU1JTFk9IlRpbWVzIE5ldyBSb21hbiIgRk9OVFNJWkU9IjUiLz48VGV4dFN0eWxl
+              IElEPSJmb250MSIgRk9OVEZBTUlMWT0iVGltZXMgTmV3IFJvbWFuIiBGT05UU0laRT0iMTAiLz48VGV4
+              dFN0eWxlIElEPSJmb250MiIgRk9OVEZBTUlMWT0iVGltZXMgTmV3IFJvbWFuIiBGT05UU0laRT0iMTEi
+              Lz48VGV4dFN0eWxlIElEPSJmb250MyIgRk9OVEZBTUlMWT0iVGltZXMgTmV3IFJvbWFuIiBGT05UU0la
+              RT0iMTgiLz48VGV4dFN0eWxlIElEPSJmb250NCIgRk9OVEZBTUlMWT0iVGltZXMgTmV3IFJvbWFuIiBG
+              T05UU0laRT0iMTkiLz4KPFBhcmFncmFwaFN0eWxlIElEPSJTdHlsZUlkLUZGRkZGRkZGLUZGRkYtRkZG
+              Ri1GRkZGLUZGRkZGRkZGRkZGRi0iIEFMSUdOPSJMZWZ0IiBMRUZUPSIwLiIgUklHSFQ9IjAuIiBGSVJT
+              VExJTkU9IjAuIi8+CjxQYXJhZ3JhcGhTdHlsZSBJRD0iU3R5bGVJZC1BODNDMTI1MC05ODdBLTQ3OEMt
+              QkJGRS1EM0M3RDEyQ0Q5QzktIiBBTElHTj0iQmxvY2siIExFRlQ9IjAuIiBSSUdIVD0iMC4iIEZJUlNU
+              TElORT0iMC4iIExJTkVTUEFDRT0iMTkuODk5OTk5NjIiLz4KPFBhcmFncmFwaFN0eWxlIElEPSJTdHls
+              ZUlkLUIyQTkyOUE1LTY4OEQtNDMyRC1BN0U5LTk3NDI1REFFNzNBRi0iIEFMSUdOPSJMZWZ0IiBMRUZU
+              PSIwLiIgUklHSFQ9IjAuIiBGSVJTVExJTkU9IjAuIiBMSU5FU1BBQ0U9IjIxLiIvPgo8UGFyYWdyYXBo
+              U3R5bGUgSUQ9IlN0eWxlSWQtMkQxQUYwRkMtMjU5Ni00RjA0LThGNzgtNUFBNjE5RjlCREUyLSIgQUxJ
+              R049IkxlZnQiIExFRlQ9IjAuIiBSSUdIVD0iMC4iIEZJUlNUTElORT0iMC4iIExJTkVTUEFDRT0iMTEu
+              NjAwMDAwMzgiLz4KPFBhcmFncmFwaFN0eWxlIElEPSJTdHlsZUlkLTU2NzZENDg0LTcxRTItNDNBMi05
+              RDk1LTI2Qjc1OUY4RDg5Ny0iIEFMSUdOPSJMZWZ0IiBMRUZUPSIwLiIgUklHSFQ9IjAuIiBGSVJTVExJ
+              TkU9IjAuIiBMSU5FU1BBQ0U9IjEwLjUiLz4KPC9TdHlsZXM+CjxMYXlvdXQ+CjxQYWdlIElEPSJQYWdl
+              MSIgUEhZU0lDQUxfSU1HX05SPSIxIiBIRUlHSFQ9IjE5NjkiIFdJRFRIPSIxNDk5Ij4KPFRvcE1hcmdp
+              biBIRUlHSFQ9IjQ2IiBXSURUSD0iMTQ5OSIgVlBPUz0iMCIgSFBPUz0iMCI+CjwvVG9wTWFyZ2luPgo8
+              TGVmdE1hcmdpbiBIRUlHSFQ9IjE3MTMiIFdJRFRIPSIyNjMiIFZQT1M9IjQ2IiBIUE9TPSIwIj4KPC9M
+              ZWZ0TWFyZ2luPgo8UmlnaHRNYXJnaW4gSEVJR0hUPSIxNzEzIiBXSURUSD0iMTQyIiBWUE9TPSI0NiIg
+              SFBPUz0iMTM1NyI+CjwvUmlnaHRNYXJnaW4+CjxCb3R0b21NYXJnaW4gSEVJR0hUPSIyMTAiIFdJRFRI
+              PSIxNDk5IiBWUE9TPSIxNzU5IiBIUE9TPSIwIj4KPC9Cb3R0b21NYXJnaW4+CjxQcmludFNwYWNlIEhF
+              SUdIVD0iMTcxMyIgV0lEVEg9IjEwOTQiIFZQT1M9IjQ2IiBIUE9TPSIyNjMiPgo8Q29tcG9zZWRCbG9j
+              ayBJRD0iUGFnZTFfQmxvY2sxIiBIRUlHSFQ9Ijg1IiBXSURUSD0iMTA3NyIgVlBPUz0iNDYiIEhQT1M9
+              IjI4MCIgVFlQRT0iY29udGFpbmVyIj4KPFRleHRCbG9jayBJRD0iUGFnZTFfQmxvY2syIiBIRUlHSFQ9
+              IjY3IiBXSURUSD0iMjkwIiBWUE9TPSI2NCIgSFBPUz0iMjgwIiBsYW5ndWFnZT0icnUiIFNUWUxFUkVG
+              Uz0iU3R5bGVJZC1BODNDMTI1MC05ODdBLTQ3OEMtQkJGRS1EM0M3RDEyQ0Q5QzktIGZvbnQzIj4KPFRl
+              eHRMaW5lIEJBU0VMSU5FPSIxMTkiIEhFSUdIVD0iNjAiIFdJRFRIPSIyODQiIFZQT1M9IjY3IiBIUE9T
+              PSIyODMiPjxTdHJpbmcgQ09OVEVOVD0i0KbQm30iIEhFSUdIVD0iNDciIFdJRFRIPSI4NSIgVlBPUz0i
+              NzciIEhQT1M9IjI4MyIvPjxTUCBXSURUSD0iMjMiIFZQT1M9Ijc3IiBIUE9TPSIzNjkiLz48U3RyaW5n
+              IENPTlRFTlQ9IuKWoCIgSEVJR0hUPSI2IiBXSURUSD0iNCIgVlBPUz0iMTA2IiBIUE9TPSIzOTMiLz48
+              U1AgV0lEVEg9IjEzMiIgVlBPUz0iNjciIEhQT1M9IjM5OCIvPjxTdHJpbmcgQ09OVEVOVD0iXiIgSEVJ
+              R0hUPSI2MCIgV0lEVEg9IjM2IiBWUE9TPSI2NyIgSFBPUz0iNTMxIi8+PC9UZXh0TGluZT4KPC9UZXh0
+              QmxvY2s+CjxUZXh0QmxvY2sgSUQ9IlBhZ2UxX0Jsb2NrMyIgSEVJR0hUPSIyOSIgV0lEVEg9IjI3NSIg
+              VlBPUz0iNDYiIEhQT1M9IjEwODIiIFNUWUxFUkVGUz0iU3R5bGVJZC0yRDFBRjBGQy0yNTk2LTRGMDQt
+              OEY3OC01QUE2MTlGOUJERTItIGZvbnQyIj4KPFRleHRMaW5lIEJBU0VMSU5FPSI3MSIgSEVJR0hUPSIy
+              MyIgV0lEVEg9IjI2OSIgVlBPUz0iNDkiIEhQT1M9IjEwODQiPjxTdHJpbmcgQ09OVEVOVD0iTVpLLVBL
+              IiBIRUlHSFQ9IjIxIiBXSURUSD0iMTQ1IiBWUE9TPSI0OSIgSFBPUz0iMTA4NCIvPjxTUCBXSURUSD0i
+              MjciIFZQT1M9IjUxIiBIUE9TPSIxMjMwIi8+PFN0cmluZyBDT05URU5UPSLQktGCLdC/0L4iIEhFSUdI
+              VD0iMjAiIFdJRFRIPSI5NSIgVlBPUz0iNTIiIEhQT1M9IjEyNTgiLz48L1RleHRMaW5lPgo8L1RleHRC
+              bG9jaz48L0NvbXBvc2VkQmxvY2s+CjxUZXh0QmxvY2sgSUQ9IlBhZ2UxX0Jsb2NrNCIgSEVJR0hUPSIy
+              NyIgV0lEVEg9IjE1MyIgVlBPUz0iMTY1IiBIUE9TPSIxMTQ3IiBsYW5ndWFnZT0icnUiIFNUWUxFUkVG
+              Uz0iU3R5bGVJZC01Njc2RDQ4NC03MUUyLTQzQTItOUQ5NS0yNkI3NTlGOEQ4OTctIGZvbnQxIj4KPFRl
+              eHRMaW5lIEJBU0VMSU5FPSIxODgiIEhFSUdIVD0iMjAiIFdJRFRIPSIxNDYiIFZQT1M9IjE2OCIgSFBP
+              Uz0iMTE1MCI+PFN0cmluZyBTVFlMRVJFRlM9ImZvbnQwIiBDT05URU5UPSIqIiBIRUlHSFQ9IjEwIiBX
+              SURUSD0iMTAiIFZQT1M9IjE3MiIgSFBPUz0iMTE1MCIvPjxTdHJpbmcgQ09OVEVOVD0iMzExOTkyOTEz
+              NiIgSEVJR0hUPSIyMCIgV0lEVEg9IjEyMiIgVlBPUz0iMTY4IiBIUE9TPSIxMTYyIi8+PFN0cmluZyBT
+              VFlMRVJFRlM9ImZvbnQwIiBDT05URU5UPSIqIiBIRUlHSFQ9IjEwIiBXSURUSD0iMTAiIFZQT1M9IjE3
+              NCIgSFBPUz0iMTI4NiIvPjwvVGV4dExpbmU+CjwvVGV4dEJsb2NrPjxJbGx1c3RyYXRpb24gSUQ9IlBh
+              Z2UxX0Jsb2NrNSIgSEVJR0hUPSI2NzYiIFdJRFRIPSI4NDMiIFZQT1M9IjU0NCIgSFBPUz0iMjYzIi8+
+              CjxDb21wb3NlZEJsb2NrIElEPSJQYWdlMV9CbG9jazYiIEhFSUdIVD0iMzQ0IiBXSURUSD0iMjA1IiBW
+              UE9TPSIxNDE1IiBIUE9TPSI1ODUiIFRZUEU9ImNvbnRhaW5lciI+CjxUZXh0QmxvY2sgSUQ9IlBhZ2Ux
+              X0Jsb2NrNyIgSEVJR0hUPSI1NCIgV0lEVEg9IjE3NSIgVlBPUz0iMTQxNSIgSFBPUz0iNTg1IiBsYW5n
+              dWFnZT0icnUiIFNUWUxFUkVGUz0iU3R5bGVJZC1CMkE5MjlBNS02ODhELTQzMkQtQTdFOS05NzQyNURB
+              RTczQUYtIGZvbnQ0Ij4KPFRleHRMaW5lIEJBU0VMSU5FPSIxNDU0IiBIRUlHSFQ9IjQ2IiBXSURUSD0i
+              MTY5IiBWUE9TPSIxNDE5IiBIUE9TPSI1ODgiPjxTdHJpbmcgU1RZTEU9ImJvbGQiIENPTlRFTlQ9IjE5
+              NTYwNSIgSEVJR0hUPSI0NiIgV0lEVEg9IjE2OSIgVlBPUz0iMTQxOSIgSFBPUz0iNTg4Ii8+PC9UZXh0
+              TGluZT4KPC9UZXh0QmxvY2s+PElsbHVzdHJhdGlvbiBJRD0iUGFnZTFfQmxvY2s4IiBIRUlHSFQ9IjI4
+              OCIgV0lEVEg9IjIwMCIgVlBPUz0iMTQ3MSIgSFBPUz0iNTkwIi8+PC9Db21wb3NlZEJsb2NrPgo8L1By
+              aW50U3BhY2U+CjwvUGFnZT4KPC9MYXlvdXQ+CjwvYWx0bz4K
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+<foxml:datastreamVersion ID="ALTO.1" LABEL="" CREATED="2015-07-29T12:59:00.598Z" MIMETYPE="text/plain" SIZE="5304">
+<foxml:binaryContent> 
+              77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8
+              YWx0byB4bWxucz0iaHR0cDovL3d3dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyIgeG1sbnM6
+              eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53
+              My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhzaTpzY2hlbWFMb2NhdGlvbj0iaHR0cDovL3d3
+              dy5sb2MuZ292L3N0YW5kYXJkcy9hbHRvL25zLXYyIyBodHRwOi8vd3d3LmxvYy5nb3Yvc3RhbmRhcmRz
+              L2FsdG8vYWx0by12Mi4wLnhzZCI+CjxEZXNjcmlwdGlvbj4KPE1lYXN1cmVtZW50VW5pdD5waXhlbDwv
+              TWVhc3VyZW1lbnRVbml0Pgo8T0NSUHJvY2Vzc2luZyBJRD0iSWRPY3IiPjxvY3JQcm9jZXNzaW5nU3Rl
+              cD48cHJvY2Vzc2luZ0RhdGVUaW1lPjIwMTUtMDctMjk8L3Byb2Nlc3NpbmdEYXRlVGltZT48cHJvY2Vz
+              c2luZ1NvZnR3YXJlPjxzb2Z0d2FyZUNyZWF0b3I+QUJCWVk8L3NvZnR3YXJlQ3JlYXRvcj48c29mdHdh
+              cmVOYW1lPkFCQllZIFJlY29nbml0aW9uIFNlcnZlcjwvc29mdHdhcmVOYW1lPjxzb2Z0d2FyZVZlcnNp
+              b24+NC4wPC9zb2Z0d2FyZVZlcnNpb24+PC9wcm9jZXNzaW5nU29mdHdhcmU+PC9vY3JQcm9jZXNzaW5n
+              U3RlcD48L09DUlByb2Nlc3Npbmc+CjwvRGVzY3JpcHRpb24+CjxTdHlsZXM+PFRleHRTdHlsZSBJRD0i
+              Zm9udDAiIEZPTlRGQU1JTFk9IlRpbWVzIE5ldyBSb21hbiIgRk9OVFNJWkU9IjYiLz48VGV4dFN0eWxl
+              IElEPSJmb250MSIgRk9OVEZBTUlMWT0iVGltZXMgTmV3IFJvbWFuIiBGT05UU0laRT0iOSIvPjxUZXh0
+              U3R5bGUgSUQ9ImZvbnQyIiBGT05URkFNSUxZPSJUaW1lcyBOZXcgUm9tYW4iIEZPTlRTSVpFPSIxMCIv
+              PjxUZXh0U3R5bGUgSUQ9ImZvbnQzIiBGT05URkFNSUxZPSJUaW1lcyBOZXcgUm9tYW4iIEZPTlRTSVpF
+              PSIxNSIvPjxUZXh0U3R5bGUgSUQ9ImZvbnQ0IiBGT05URkFNSUxZPSJUaW1lcyBOZXcgUm9tYW4iIEZP
+              TlRTSVpFPSIxOCIvPjxUZXh0U3R5bGUgSUQ9ImZvbnQ1IiBGT05URkFNSUxZPSJUaW1lcyBOZXcgUm9t
+              YW4iIEZPTlRTSVpFPSIyMCIvPgo8UGFyYWdyYXBoU3R5bGUgSUQ9IlN0eWxlSWQtRkZGRkZGRkYtRkZG
+              Ri1GRkZGLUZGRkYtRkZGRkZGRkZGRkZGLSIgQUxJR049IkxlZnQiIExFRlQ9IjAuIiBSSUdIVD0iMC4i
+              IEZJUlNUTElORT0iMC4iLz4KPFBhcmFncmFwaFN0eWxlIElEPSJTdHlsZUlkLTgxQ0RERTQ2LTQ5NEIt
+              NERGMC1BMUU3LTM1ODMyQjJCRjY4Qy0iIEFMSUdOPSJMZWZ0IiBMRUZUPSIwLiIgUklHSFQ9IjAuIiBG
+              SVJTVExJTkU9IjAuIiBMSU5FU1BBQ0U9IjIyLjEwMDAwMDM4Ii8+CjxQYXJhZ3JhcGhTdHlsZSBJRD0i
+              U3R5bGVJZC1BNjE3QzFENi1CRjMzLTRFMzUtODNERi02NEUwQjg1RTFFMUMtIiBBTElHTj0iTGVmdCIg
+              TEVGVD0iMC4iIFJJR0hUPSIwLiIgRklSU1RMSU5FPSIwLiIgTElORVNQQUNFPSIxOS44OTk5OTk2MiIv
+              Pgo8UGFyYWdyYXBoU3R5bGUgSUQ9IlN0eWxlSWQtOEU3QThCMzAtOUI3My00MDVCLTk1MkQtODgwM0RC
+              MEY4NTNDLSIgQUxJR049IkxlZnQiIExFRlQ9IjAuIiBSSUdIVD0iMC4iIEZJUlNUTElORT0iMC4iIExJ
+              TkVTUEFDRT0iMTAuNSIvPgo8UGFyYWdyYXBoU3R5bGUgSUQ9IlN0eWxlSWQtQTdBMThGRjYtMzE4Qy00
+              RkYxLUFCOTEtOTI2NTI0ODAwMDBFLSIgQUxJR049IkxlZnQiIExFRlQ9IjAuIiBSSUdIVD0iMC4iIEZJ
+              UlNUTElORT0iMC4iIExJTkVTUEFDRT0iNi4wOTk5OTk5MDUiLz4KPFBhcmFncmFwaFN0eWxlIElEPSJT
+              dHlsZUlkLUEwMjk0OTRGLUZCNzYtNEJCNi1BQzkwLTU1QzM4QjE3MEU1QS0iIEFMSUdOPSJMZWZ0IiBM
+              RUZUPSIwLiIgUklHSFQ9IjAuIiBGSVJTVExJTkU9IjAuIiBMSU5FU1BBQ0U9IjE2LjYwMDAwMDM4Ii8+
+              CjxQYXJhZ3JhcGhTdHlsZSBJRD0iU3R5bGVJZC03MzdEQjk1Ny1BMzcwLTREMDctQTQ5OS1FMjk3MTI1
+              OUM1MjctIiBBTElHTj0iTGVmdCIgTEVGVD0iMC4iIFJJR0hUPSIwLiIgRklSU1RMSU5FPSIwLiIgTElO
+              RVNQQUNFPSIxMC4iLz4KPC9TdHlsZXM+CjxMYXlvdXQ+CjxQYWdlIElEPSJQYWdlMSIgUEhZU0lDQUxf
+              SU1HX05SPSIxIiBIRUlHSFQ9IjI4MjEiIFdJRFRIPSIyMTQ5Ij4KPFRvcE1hcmdpbiBIRUlHSFQ9IjY0
+              IiBXSURUSD0iMjE0OSIgVlBPUz0iMCIgSFBPUz0iMCI+CjwvVG9wTWFyZ2luPgo8TGVmdE1hcmdpbiBI
+              RUlHSFQ9IjI0NjIiIFdJRFRIPSI2ODgiIFZQT1M9IjY0IiBIUE9TPSIwIj4KPC9MZWZ0TWFyZ2luPgo8
+              UmlnaHRNYXJnaW4gSEVJR0hUPSIyNDYyIiBXSURUSD0iMTQ5IiBWUE9TPSI2NCIgSFBPUz0iMjAwMCI+
+              CjwvUmlnaHRNYXJnaW4+CjxCb3R0b21NYXJnaW4gSEVJR0hUPSIyOTUiIFdJRFRIPSIyMTQ5IiBWUE9T
+              PSIyNTI2IiBIUE9TPSIwIj4KPC9Cb3R0b21NYXJnaW4+CjxQcmludFNwYWNlIEhFSUdIVD0iMjQ2MiIg
+              V0lEVEg9IjEzMTIiIFZQT1M9IjY0IiBIUE9TPSI2ODgiPgo8VGV4dEJsb2NrIElEPSJQYWdlMV9CbG9j
+              azEiIEhFSUdIVD0iNjYiIFdJRFRIPSI2NiIgVlBPUz0iOTQiIEhQT1M9IjY4OCIgbGFuZ3VhZ2U9InJ1
+              IiBTVFlMRVJFRlM9IlN0eWxlSWQtQTAyOTQ5NEYtRkI3Ni00QkI2LUFDOTAtNTVDMzhCMTcwRTVBLSBm
+              b250MyI+CjxUZXh0TGluZSBCQVNFTElORT0iMTI2IiBIRUlHSFQ9IjI2IiBXSURUSD0iMjkiIFZQT1M9
+              IjEwMCIgSFBPUz0iNjg4IiBTVFlMRVJFRlM9IlN0eWxlSWQtQTdBMThGRjYtMzE4Qy00RkYxLUFCOTEt
+              OTI2NTI0ODAwMDBFLSBmb250MCI+PFN0cmluZyBTVFlMRT0iaXRhbGljcyIgQ09OVEVOVD0iJmFwb3M7
+              0JsiIEhFSUdIVD0iMjYiIFdJRFRIPSIyOSIgVlBPUz0iMTAwIiBIUE9TPSI2ODgiLz48L1RleHRMaW5l
+              Pgo8VGV4dExpbmUgQkFTRUxJTkU9IjE1NSIgSEVJR0hUPSIyOSIgV0lEVEg9IjQxIiBWUE9TPSIxMjYi
+              IEhQT1M9IjY5MyI+PFN0cmluZyBTVFlMRT0iaXRhbGljcyIgQ09OVEVOVD0i0LsiIEhFSUdIVD0iMjki
+              IFdJRFRIPSI0MSIgVlBPUz0iMTI2IiBIUE9TPSI2OTMiLz48L1RleHRMaW5lPgo8L1RleHRCbG9jaz4K
+              PENvbXBvc2VkQmxvY2sgSUQ9IlBhZ2UxX0Jsb2NrMiIgSEVJR0hUPSIyMTIiIFdJRFRIPSI1MTQiIFZQ
+              T1M9IjY0IiBIUE9TPSIxNDg2IiBUWVBFPSJjb250YWluZXIiPgo8VGV4dEJsb2NrIElEPSJQYWdlMV9C
+              bG9jazMiIEhFSUdIVD0iNDUiIFdJRFRIPSIzOTgiIFZQT1M9IjY0IiBIUE9TPSIxNTQ5IiBsYW5ndWFn
+              ZT0iY3MiIFNUWUxFUkVGUz0iU3R5bGVJZC04RTdBOEIzMC05QjczLTQwNUItOTUyRC04ODAzREIwRjg1
+              M0MtIGZvbnQyIj4KPFRleHRMaW5lIEJBU0VMSU5FPSIxMDEiIEhFSUdIVD0iMzIiIFdJRFRIPSIzODYi
+              IFZQT1M9IjcxIiBIUE9TPSIxNTU1Ij48U3RyaW5nIENPTlRFTlQ9Ik1aSy1QSyIgSEVJR0hUPSIyOSIg
+              V0lEVEg9IjIwOCIgVlBPUz0iNzEiIEhQT1M9IjE1NTUiLz48U1AgV0lEVEg9IjM5IiBWUE9TPSI3MyIg
+              SFBPUz0iMTc2NCIvPjxTdHJpbmcgQ09OVEVOVD0iQnItbm8iIEhFSUdIVD0iMjkiIFdJRFRIPSIxMzci
+              IFZQT1M9Ijc0IiBIUE9TPSIxODA0Ii8+PC9UZXh0TGluZT4KPC9UZXh0QmxvY2s+PElsbHVzdHJhdGlv
+              biBJRD0iUGFnZTFfQmxvY2s0IiBIRUlHSFQ9IjEyOSIgV0lEVEg9IjUxNCIgVlBPUz0iMTA4IiBIUE9T
+              PSIxNDg2Ii8+CjxUZXh0QmxvY2sgSUQ9IlBhZ2UxX0Jsb2NrNSIgSEVJR0hUPSI0MSIgV0lEVEg9IjIy
+              MyIgVlBPUz0iMjM1IiBIUE9TPSIxNjQyIiBsYW5ndWFnZT0iY3MiIFNUWUxFUkVGUz0iU3R5bGVJZC03
+              MzdEQjk1Ny1BMzcwLTREMDctQTQ5OS1FMjk3MTI1OUM1MjctIGZvbnQxIj4KPFRleHRMaW5lIEJBU0VM
+              SU5FPSIyNzAiIEhFSUdIVD0iMjkiIFdJRFRIPSIyMTEiIFZQT1M9IjI0MSIgSFBPUz0iMTY0OCI+PFN0
+              cmluZyBDT05URU5UPSLigKIzMTE5OTI5MTNTKiIgSEVJR0hUPSIyOSIgV0lEVEg9IjIxMSIgVlBPUz0i
+              MjQxIiBIUE9TPSIxNjQ4Ii8+PC9UZXh0TGluZT4KPC9UZXh0QmxvY2s+PC9Db21wb3NlZEJsb2NrPjxJ
+              bGx1c3RyYXRpb24gSUQ9IlBhZ2UxX0Jsb2NrNiIgSEVJR0hUPSI5NTAiIFdJRFRIPSIxMjIyIiBWUE9T
+              PSI3NzQiIEhQT1M9IjcwMiIvPgo8Q29tcG9zZWRCbG9jayBJRD0iUGFnZTFfQmxvY2s3IiBIRUlHSFQ9
+              IjUwMCIgV0lEVEg9IjI5NiIgVlBPUz0iMjAyNiIgSFBPUz0iODM2IiBUWVBFPSJjb250YWluZXIiPgo8
+              VGV4dEJsb2NrIElEPSJQYWdlMV9CbG9jazgiIEhFSUdIVD0iODAiIFdJRFRIPSIyNTUiIFZQT1M9IjIw
+              MjYiIEhQT1M9IjgzNiIgbGFuZ3VhZ2U9InJ1IiBTVFlMRVJFRlM9IlN0eWxlSWQtQTYxN0MxRDYtQkYz
+              My00RTM1LTgzREYtNjRFMEI4NUUxRTFDLSBmb250NCI+CjxUZXh0TGluZSBCQVNFTElORT0iMjA4NCIg
+              SEVJR0hUPSI2OCIgV0lEVEg9IjI0NCIgVlBPUz0iMjAzMyIgSFBPUz0iODQzIj48U3RyaW5nIFNUWUxF
+              PSJib2xkIiBDT05URU5UPSIxOTY2OTUiIEhFSUdIVD0iNjgiIFdJRFRIPSIyNDQiIFZQT1M9IjIwMzMi
+              IEhQT1M9Ijg0MyIvPjwvVGV4dExpbmU+CjwvVGV4dEJsb2NrPjxJbGx1c3RyYXRpb24gSUQ9IlBhZ2Ux
+              X0Jsb2NrOSIgSEVJR0hUPSIyODYiIFdJRFRIPSIyODYiIFZQT1M9IjIxMDciIEhQT1M9Ijg0NiIvPgo8
+              VGV4dEJsb2NrIElEPSJQYWdlMV9CbG9jazEwIiBIRUlHSFQ9Ijk0IiBXSURUSD0iMjQ2IiBWUE9TPSIy
+              NDMyIiBIUE9TPSI4NTMiIGxhbmd1YWdlPSJydSIgU1RZTEVSRUZTPSJTdHlsZUlkLTgxQ0RERTQ2LTQ5
+              NEItNERGMC1BMUU3LTM1ODMyQjJCRjY4Qy0gZm9udDUiPgo8VGV4dExpbmUgQkFTRUxJTkU9IjI1MTgi
+              IEhFSUdIVD0iNzYiIFdJRFRIPSIyMzQiIFZQT1M9IjI0NDUiIEhQT1M9Ijg1OSI+PFN0cmluZyBTVFlM
+              RT0iYm9sZCIgQ09OVEVOVD0i0JPQnCIgSEVJR0hUPSI2OCIgV0lEVEg9IjEzMiIgVlBPUz0iMjQ0NSIg
+              SFBPUz0iODU5Ii8+PFNQIFdJRFRIPSIxMCIgVlBPUz0iMjQ0NyIgSFBPUz0iOTkyIi8+PFN0cmluZyBT
+              VFlMRT0iYm9sZCIgQ09OVEVOVD0iNzkiIEhFSUdIVD0iNzQiIFdJRFRIPSI5MCIgVlBPUz0iMjQ0NyIg
+              SFBPUz0iMTAwMyIvPjwvVGV4dExpbmU+CjwvVGV4dEJsb2NrPjwvQ29tcG9zZWRCbG9jaz48R3JhcGhp
+              Y2FsRWxlbWVudCBJRD0iUGFnZTFfQmxvY2sxMSIgSEVJR0hUPSI1IiBXSURUSD0iMTAwIiBWUE9TPSIx
+              NjE2IiBIUE9TPSIxMjYxIi8+PEdyYXBoaWNhbEVsZW1lbnQgSUQ9IlBhZ2UxX0Jsb2NrMTIiIEhFSUdI
+              VD0iMTIiIFdJRFRIPSIyNTAiIFZQT1M9IjE2NzkiIEhQT1M9IjkwMiIvPgo8L1ByaW50U3BhY2U+Cjwv
+              UGFnZT4KPC9MYXlvdXQ+CjwvYWx0bz4K
+</foxml:binaryContent> 
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>

@@ -1,0 +1,3 @@
+ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ PREFIX indexing: <http://fedora.info/definitions/v4/indexing#>
+ <> <info:fedora/fedora-system:def/foxml#PID> "uuid:ce36d3a4-fd97-4439-9bff-8524a6010be7" .

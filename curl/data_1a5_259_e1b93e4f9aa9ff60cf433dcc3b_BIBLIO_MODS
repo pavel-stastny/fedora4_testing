@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><mods:modsCollection xmlns:mods="http://www.loc.gov/mods/v3" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><mods:mods version="3.3"><mods:identifier type="urn">1a5259e1-b93e-4f9a-a9ff-60cf433dcc3b</mods:identifier><mods:identifier type="sici"/><mods:titleInfo><mods:title>[23]</mods:title>
+            </mods:titleInfo><mods:typeOfResource>text</mods:typeOfResource><mods:part type="NormalPage"><mods:detail type="pageNumber"><mods:number>[23]</mods:number>
+              </mods:detail><mods:detail type="pageIndex"><mods:number>23</mods:number>
+              </mods:detail>
+            </mods:part><mods:location><mods:url>http://kramerius.mzk.cz/search/handle/uuid:1a5259e1-b93e-4f9a-a9ff-60cf433dcc3b</mods:url>
+            </mods:location><mods:identifier type="uuid">uuid:1a5259e1-b93e-4f9a-a9ff-60cf433dcc3b</mods:identifier>
+          </mods:mods>
+        </mods:modsCollection>
